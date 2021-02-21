@@ -1,11 +1,11 @@
-# Robert's Farm of Ideas: RUNNING_IDEA_NUMBER
+# Robert's Farm of Ideas: 8
 
 [![DOI](https://zenodo.org/badge/BADGE_NUMBER_FROM_ZENODO.svg)](https://zenodo.org/badge/latestdoi/BADGE_NUMBER_FROM_ZENODO)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-green.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 ## This idea in NUMBER_OF_CHARACTERS characters
-It's good to have a template for multiple related things.
-
+We should create an open database for the thermodynamics of enzyme-catalyzed reactions (and other metabolism relevant thermodynamic data).  
+ 
 ## Sounds great, but...
 You are interested in this topic? But the idea is gibberish and incomplete, or non-sense? Well, you're probably right! 
 
