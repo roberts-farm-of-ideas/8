@@ -1,14 +1,20 @@
 {
-    "description": "DESCRIPTION_GOES_HERE.", 
-    "title": "Robert's Farm of Ideas: RUNNING_NUMBER_OF_IDEA -- RUNNING_TITLE_OF_IDEA", 
+    "description": "We should create an open database for the thermodynamics of enzyme-catalyzed reactions (and other metabolism relevant thermodynamic data) .", 
+    "title": "Robert's Farm of Ideas: 8 -- open database on biomolecule thermodynamics", 
     "license": {
         "id": "CC-BY-4.0"
     }, 
-    "notes": "Development is happening here: https://github.com/roberts-farm-of-ideas/RUNNING_NUMBER_OF_IDEA", 
+    "notes": "Development is happening here: https://github.com/roberts-farm-of-ideas/8", 
     "keywords": [
-        "KEYWORD1",
-        "",
-        "KEYWORDLAST"
+        "thermodynamics",
+        "open database",
+        "community formation",
+        "literature review",
+        "biocuration",
+        "curation",
+        "biomolecules",
+        "enzyme-catalyzed reactions",
+        "database"
     ],
     "creators": [
     {
