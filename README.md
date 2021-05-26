@@ -1,10 +1,12 @@
-# Robert's Farm of Ideas: 8
+# Robert's Farm of Ideas: 8 -- Creating an open database for the thermodynamics of enzyme-catalyzed reactions
 
 [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.4556432.svg)](https://doi.org/10.5281/zenodo.4556432)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-green.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-## This idea in NUMBER_OF_CHARACTERS characters
+## This idea in short 
 We should create an open database for the thermodynamics of enzyme-catalyzed reactions (and other metabolism relevant thermodynamic data).  
+
+There is now a Google Groups on this: https://groups.google.com/g/opentecr/
  
 ## Sounds great, but...
 You are interested in this topic? But the idea is gibberish and incomplete, or non-sense? Well, you're probably right! 
