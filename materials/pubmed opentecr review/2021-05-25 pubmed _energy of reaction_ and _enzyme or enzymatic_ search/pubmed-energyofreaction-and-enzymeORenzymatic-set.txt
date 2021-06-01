@@ -1,0 +1,1768 @@
+PMID- 33711090
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20210402
+LR  - 20210402
+IS  - 1463-9084 (Electronic)
+IS  - 1463-9076 (Linking)
+VI  - 23
+IP  - 11
+DP  - 2021 Mar 21
+TI  - Covalent and non-covalent binding free energy calculations for peptidomimetic 
+      inhibitors of SARS-CoV-2 main protease.
+PG  - 6746-6757
+LID - 10.1039/d1cp00266j [doi]
+AB  - COVID-19, the disease caused by the newly discovered coronavirus-SARS-CoV-2, has 
+      created a global health, social, and economic crisis. As of mid-January 2021, there 
+      are over 90 million confirmed cases and more than 2 million reported deaths due to 
+      COVID-19. Currently, there are very limited therapeutics for the treatment or 
+      prevention of COVID-19. For this reason, it is important to find drug targets that 
+      will lead to the development of safe and effective therapeutics against the disease. 
+      The main protease (M(pro)) of the virus is an attractive target for the development 
+      of effective antiviral therapeutics because it is required for proteolytic cleavage 
+      of viral polyproteins. Furthermore, the M(pro) has no human homologues, so drugs 
+      designed to bind to this target directly have less risk for off-target effects. 
+      Recently, several high-resolution crystallographic structures of the M(pro) in 
+      complex with inhibitors have been determined-to guide drug development and to spur 
+      efforts in structure-based drug design. One of the primary objectives of modern 
+      structure-based drug design is the accurate prediction of receptor-ligand binding 
+      affinities for rational drug design and discovery. Here, we perform rigorous 
+      alchemical absolute binding free energy calculations and QM/MM calculations to give 
+      insight into the total binding energy of two recently crystallized inhibitors of 
+      SARS-CoV-2 M(pro), namely, N3 and α-ketoamide 13b. The total binding energy consists 
+      of both covalent and non-covalent binding components since both compounds are 
+      covalent inhibitors of the M(pro). Our results indicate that the covalent and 
+      non-covalent binding free energy contributions of both inhibitors to the M(pro) 
+      target differ significantly. The N3 inhibitor has more favourable non-covalent 
+      interactions, particularly hydrogen bonding, in the binding site of the M(pro) than 
+      the α-ketoamide inhibitor. Also, the Gibbs energy of reaction for the M(pro)-N3 
+      covalent adduct is greater than the Gibbs reaction energy for the M(pro)-α-ketoamide 
+      covalent adduct. These differences in the covalent and non-covalent binding free 
+      energy contributions for both inhibitors could be a plausible explanation for their 
+      in vitro differences in antiviral activity. Our findings are consistent with the 
+      reversible and irreversible character of both inhibitors as reported by experiment 
+      and highlight the importance of both covalent and non-covalent binding free energy 
+      contributions to the absolute binding affinity of a covalent inhibitor towards its 
+      target. This information could prove useful in the rational design, discovery, and 
+      evaluation of potent SARS-CoV-2 M(pro) inhibitors for targeted antiviral therapy.
+FAU - Awoonor-Williams, Ernest
+AU  - Awoonor-Williams E
+AD  - Department of Chemistry, Memorial University of Newfoundland, St. John's, NL A1B 
+      3X9, Canada. esaw83@mun.ca.
+FAU - Abu-Saleh, Abd Al-Aziz A
+AU  - Abu-Saleh AAA
+LA  - eng
+PT  - Journal Article
+DEP - 20210312
+PL  - England
+TA  - Phys Chem Chem Phys
+JT  - Physical chemistry chemical physics : PCCP
+JID - 100888160
+RN  - 0 (Amides)
+RN  - 0 (Ligands)
+RN  - 0 (Peptidomimetics)
+RN  - 0 (Protease Inhibitors)
+RN  - 0 (Viral Matrix Proteins)
+RN  - 0 (membrane protein, SARS-CoV-2)
+SB  - IM
+MH  - Amides/chemistry/metabolism
+MH  - Binding Sites
+MH  - COVID-19/pathology/virology
+MH  - Catalytic Domain
+MH  - Drug Design
+MH  - Humans
+MH  - Hydrogen-Ion Concentration
+MH  - Kinetics
+MH  - Ligands
+MH  - Molecular Dynamics Simulation
+MH  - Peptidomimetics/*chemistry/metabolism
+MH  - Protease Inhibitors/*chemistry/metabolism
+MH  - Quantum Theory
+MH  - SARS-CoV-2/*enzymology/isolation & purification
+MH  - Thermodynamics
+MH  - Viral Matrix Proteins/*antagonists & inhibitors/metabolism
+EDAT- 2021/03/13 06:00
+MHDA- 2021/04/07 06:00
+CRDT- 2021/03/12 17:19
+PHST- 2021/03/13 06:00 [pubmed]
+PHST- 2021/04/07 06:00 [medline]
+PHST- 2021/03/12 17:19 [entrez]
+AID - 10.1039/d1cp00266j [doi]
+PST - ppublish
+SO  - Phys Chem Chem Phys. 2021 Mar 21;23(11):6746-6757. doi: 10.1039/d1cp00266j. Epub 
+      2021 Mar 12.
+
+PMID- 31958502
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20200420
+LR  - 20200420
+IS  - 1878-1454 (Electronic)
+IS  - 1570-9639 (Linking)
+VI  - 1868
+IP  - 4
+DP  - 2020 Apr
+TI  - Standard Gibbs energy of metabolic reactions: V. Enolase reaction.
+PG  - 140365
+LID - S1570-9639(20)30006-6 [pii]
+LID - 10.1016/j.bbapap.2020.140365 [doi]
+AB  - The glycolytic pathway is one of the most important pathways for living organisms, 
+      due to its role in energy production and as supplier of precursors for biosynthesis 
+      in living cells. This work focuses on determination of the standard Gibbs energy of 
+      reaction Δ(R)g'(0) of the enolase reaction, the ninth reaction in the glycolysis 
+      pathway. Exact Δ(R)g'(0) values are required to predict the thermodynamic 
+      feasibility of single metabolic reactions or even of metabolic reaction sequences 
+      under cytosolic conditions. So-called "apparent" standard data from literature are 
+      only valid at specific conditions. Nevertheless, such data are often used in pathway 
+      analyses, which might lead to misinterpretation of the results. In this work, 
+      equilibrium measurements were combined with activity coefficients in order to obtain 
+      new standard values Δ(R)g'(0) for the enolase reaction that are independent of the 
+      cytosolic conditions. Reaction equilibria were measured at different initial 
+      substrate concentrations and temperatures of 298.15 K, 305.15 K and 310.15 K at 
+      pH 7. The activity coefficients were predicted using the equation of state 
+      electrolyte Perturbed-Chain Statistical Associating Fluid Theory (ePC-SAFT). The 
+      ePC-SAFT parameters were taken from literature or fitted to new experimentally 
+      determined osmotic coefficients and densities. At 298.15 K and pH 7, a 
+      Δ(R)g'(0)(298.15 K, pH 7) value of -2.8 ± 0.2 kJ mol(-)(1) was obtained. This value 
+      differs by up to 5 kJ mol(-)(1) from literature data. Reasons are the poorly defined 
+      "standard" conditions and partly undefined reaction conditions of literature works. 
+      Finally, using temperature-dependent equilibrium constants and the van 't Hoff 
+      equation, the standard enthalpy of reaction of Δ(R)h'(0)(298.15 K, 
+      pH 7) = 27 ± 10 kJ mol(-)(1) was determined, and a similar value was found by 
+      quantum-chemistry calculations.
+CI  - Copyright © 2020 Elsevier B.V. All rights reserved.
+FAU - Greinert, Thorsten
+AU  - Greinert T
+AD  - Laboratory of Thermodynamics, Department of Biochemical and Chemical Engineering, 
+      Technische Universitaet Dortmund, Emil-Figge-Str. 70, 44227 Dortmund, Germany.
+FAU - Vogel, Kristina
+AU  - Vogel K
+AD  - UFZ - Helmholtz Centre for Environmental Research, Dept. Environmental Microbiology, 
+      Permoserstr. 15, D-04318 Leipzig, Germany.
+FAU - Seifert, Astrid Ina
+AU  - Seifert AI
+AD  - Laboratory of Thermodynamics, Department of Biochemical and Chemical Engineering, 
+      Technische Universitaet Dortmund, Emil-Figge-Str. 70, 44227 Dortmund, Germany.
+FAU - Siewert, Riko
+AU  - Siewert R
+AD  - Department of Physical Chemistry, University of Rostock, 18059, Rostock, Germany.
+FAU - Andreeva, Irina V
+AU  - Andreeva IV
+AD  - Department of Physical Chemistry, University of Rostock, 18059, Rostock, Germany.
+FAU - Verevkin, Sergey P
+AU  - Verevkin SP
+AD  - Department of Physical Chemistry, University of Rostock, 18059, Rostock, Germany.
+FAU - Maskow, Thomas
+AU  - Maskow T
+AD  - UFZ - Helmholtz Centre for Environmental Research, Dept. Environmental Microbiology, 
+      Permoserstr. 15, D-04318 Leipzig, Germany.
+FAU - Sadowski, Gabriele
+AU  - Sadowski G
+AD  - Laboratory of Thermodynamics, Department of Biochemical and Chemical Engineering, 
+      Technische Universitaet Dortmund, Emil-Figge-Str. 70, 44227 Dortmund, Germany.
+FAU - Held, Christoph
+AU  - Held C
+AD  - Laboratory of Thermodynamics, Department of Biochemical and Chemical Engineering, 
+      Technische Universitaet Dortmund, Emil-Figge-Str. 70, 44227 Dortmund, Germany. 
+      Electronic address: christoph.held@tu-dortmund.de.
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20200118
+PL  - Netherlands
+TA  - Biochim Biophys Acta Proteins Proteom
+JT  - Biochimica et biophysica acta. Proteins and proteomics
+JID - 101731734
+RN  - EC 4.2.1.11 (Phosphopyruvate Hydratase)
+RN  - I38ZP9992A (Magnesium)
+SB  - IM
+MH  - *Glycolysis
+MH  - Hydrogen-Ion Concentration
+MH  - Magnesium/chemistry
+MH  - Osmosis
+MH  - Phosphopyruvate Hydratase/*chemistry/*metabolism
+MH  - Saccharomyces cerevisiae/enzymology
+MH  - Thermodynamics
+COIS- Declaration of Competing Interest None.
+EDAT- 2020/01/21 06:00
+MHDA- 2020/04/21 06:00
+CRDT- 2020/01/21 06:00
+PHST- 2019/08/21 00:00 [received]
+PHST- 2020/01/13 00:00 [revised]
+PHST- 2020/01/15 00:00 [accepted]
+PHST- 2020/01/21 06:00 [pubmed]
+PHST- 2020/04/21 06:00 [medline]
+PHST- 2020/01/21 06:00 [entrez]
+AID - S1570-9639(20)30006-6 [pii]
+AID - 10.1016/j.bbapap.2020.140365 [doi]
+PST - ppublish
+SO  - Biochim Biophys Acta Proteins Proteom. 2020 Apr;1868(4):140365. doi: 
+      10.1016/j.bbapap.2020.140365. Epub 2020 Jan 18.
+
+PMID- 31508957
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20201023
+LR  - 20210304
+IS  - 1520-5126 (Electronic)
+IS  - 0002-7863 (Print)
+IS  - 0002-7863 (Linking)
+VI  - 141
+IP  - 40
+DP  - 2019 Oct 9
+TI  - Uncovering the Role of Key Active-Site Side Chains in Catalysis: An Extended 
+      Brønsted Relationship for Substrate Deprotonation Catalyzed by Wild-Type and 
+      Variants of Triosephosphate Isomerase.
+PG  - 16139-16150
+LID - 10.1021/jacs.9b08713 [doi]
+AB  - We report results of detailed empirical valence bond simulations that model the 
+      effect of several amino acid substitutions on the thermodynamic (ΔG°) and kinetic 
+      activation (ΔG(⧧)) barriers to deprotonation of dihydroxyacetone phosphate (DHAP) 
+      and d-glyceraldehyde 3-phosphate (GAP) bound to wild-type triosephosphate isomerase 
+      (TIM), as well as to the K12G, E97A, E97D, E97Q, K12G/E97A, I170A, L230A, 
+      I170A/L230A, and P166A variants of this enzyme. The EVB simulations model the 
+      observed effect of the P166A mutation on protein structure. The E97A, E97Q, and E97D 
+      mutations of the conserved E97 side chain result in ≤1.0 kcal mol(-1) decreases in 
+      the activation barrier for substrate deprotonation. The agreement between 
+      experimental and computed activation barriers is within ±1 kcal mol(-1), with a 
+      strong linear correlation between ΔG(⧧) and ΔG° for all 11 variants, with slopes β = 
+      0.73 (R(2) = 0.994) and β = 0.74 (R(2) = 0.995) for the deprotonation of DHAP and 
+      GAP, respectively. These Brønsted-type correlations show that the amino acid side 
+      chains examined in this study function to reduce the standard-state Gibbs free 
+      energy of reaction for deprotonation of the weak α-carbonyl carbon acid substrate to 
+      form the enediolate phosphate reaction intermediate. TIM utilizes the cationic side 
+      chain of K12 to provide direct electrostatic stabilization of the enolate oxyanion, 
+      and the nonpolar side chains of P166, I170, and L230 are utilized for the 
+      construction of an active-site cavity that provides optimal stabilization of the 
+      enediolate phosphate intermediate relative to the carbon acid substrate.
+FAU - Kulkarni, Yashraj S
+AU  - Kulkarni YS
+AD  - Science for Life Laboratory, Department of Chemistry - BMC , Uppsala University, BMC 
+      , Box 576, S-751 23 Uppsala , Sweden.
+FAU - Amyes, Tina L
+AU  - Amyes TL
+AD  - Department of Chemistry , University at Buffalo, SUNY , Buffalo , New York 
+      14260-3000 , United States.
+FAU - Richard, John P
+AU  - Richard JP
+AUID- ORCID: 0000-0002-0440-2387
+AD  - Department of Chemistry , University at Buffalo, SUNY , Buffalo , New York 
+      14260-3000 , United States.
+FAU - Kamerlin, Shina C L
+AU  - Kamerlin SCL
+AUID- ORCID: 0000-0002-3190-1173
+AD  - Science for Life Laboratory, Department of Chemistry - BMC , Uppsala University, BMC 
+      , Box 576, S-751 23 Uppsala , Sweden.
+LA  - eng
+GR  - R01 GM039754/GM/NIGMS NIH HHS/United States
+GR  - R01 GM116921/GM/NIGMS NIH HHS/United States
+GR  - R35 GM134881/GM/NIGMS NIH HHS/United States
+PT  - Journal Article
+PT  - Research Support, N.I.H., Extramural
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20190925
+TA  - J Am Chem Soc
+JT  - Journal of the American Chemical Society
+JID - 7503056
+RN  - 0 (Amino Acids)
+RN  - 0 (Protons)
+RN  - 142-10-9 (Glyceraldehyde 3-Phosphate)
+RN  - 57-04-5 (Dihydroxyacetone Phosphate)
+RN  - EC 5.3.1.1 (Triose-Phosphate Isomerase)
+SB  - IM
+MH  - Amino Acid Substitution
+MH  - Amino Acids/chemistry/genetics
+MH  - Catalysis
+MH  - Catalytic Domain
+MH  - Dihydroxyacetone Phosphate/*chemistry
+MH  - Glyceraldehyde 3-Phosphate/*chemistry
+MH  - Kinetics
+MH  - Models, Molecular
+MH  - Mutation
+MH  - *Protons
+MH  - Thermodynamics
+MH  - Triose-Phosphate Isomerase/*chemistry/genetics
+PMC - PMC7032883
+COIS- The authors declare no competing financial interest.
+EDAT- 2019/09/12 06:00
+MHDA- 2020/10/24 06:00
+CRDT- 2019/09/12 06:00
+PHST- 2019/09/12 06:00 [pubmed]
+PHST- 2020/10/24 06:00 [medline]
+PHST- 2019/09/12 06:00 [entrez]
+AID - 10.1021/jacs.9b08713 [doi]
+PST - ppublish
+SO  - J Am Chem Soc. 2019 Oct 9;141(40):16139-16150. doi: 10.1021/jacs.9b08713. Epub 2019 
+      Sep 25.
+
+PMID- 28992703
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20181127
+LR  - 20181127
+IS  - 1549-9626 (Electronic)
+IS  - 1549-9618 (Linking)
+VI  - 13
+IP  - 11
+DP  - 2017 Nov 14
+TI  - Influence of Frozen Residues on the Exploration of the PES of Enzyme Reaction 
+      Mechanisms.
+PG  - 5486-5495
+LID - 10.1021/acs.jctc.7b00768 [doi]
+AB  - In this work, we studied one of the very widely used approximations in the 
+      prediction of an enzyme reaction mechanism with computational methods, that is, 
+      fixing residues outside a given radius surrounding the active site. This avoids the 
+      unfolding of truncated models during MD calculations, avoids the expansion of the 
+      active site in cluster model calculations (albeit here only specific atoms are 
+      frozen), and prevents drifting between local minima when adiabatic mapping with 
+      large QM/MM models is used. To test this, we have used the first step of the 
+      reaction catalyzed by HIV-1 protease, as the detrimental effects of this 
+      approximation are expected to be large here. We calculated the PES with shells of 
+      frozen residues of different radii. Models with free regions under a 6.00 Å radius 
+      showed signs of being overconstrained. The QM/MM energy barrier for the remaining 
+      models was only slightly sensitive to this approximation (average of 0.8 
+      kcal·mol(-1), maximum of 1.6 kcal·mol-1). The influence over the energy of reaction 
+      was almost negligible. This widely used approximation seems safe and robust. The 
+      resulting error is on average below 1.6 kcal·mol(-1), which is small when compared 
+      with others deriving from, for example, the choice of the density functional or 
+      semiempirical MO/SCC-DFTB method, the basis set used, or even the lack of sampling 
+      or incomplete sampling.
+FAU - Calixto, Ana R
+AU  - Calixto AR
+AUID- ORCID: 0000-0002-1123-0413
+AD  - UCIBIO, REQUIMTE, Departamento de Química e Bioquímica, Faculdade de Ciências, 
+      Universidade do Porto , Rua do Campo Alegre s/n, 4169-007 Porto, Portugal.
+FAU - Ramos, Maria J
+AU  - Ramos MJ
+AUID- ORCID: 0000-0002-7554-8324
+AD  - UCIBIO, REQUIMTE, Departamento de Química e Bioquímica, Faculdade de Ciências, 
+      Universidade do Porto , Rua do Campo Alegre s/n, 4169-007 Porto, Portugal.
+FAU - Fernandes, Pedro A
+AU  - Fernandes PA
+AD  - UCIBIO, REQUIMTE, Departamento de Química e Bioquímica, Faculdade de Ciências, 
+      Universidade do Porto , Rua do Campo Alegre s/n, 4169-007 Porto, Portugal.
+LA  - eng
+PT  - Journal Article
+DEP - 20171025
+PL  - United States
+TA  - J Chem Theory Comput
+JT  - Journal of chemical theory and computation
+JID - 101232704
+RN  - EC 3.4.23.- (HIV Protease)
+RN  - EC 3.4.23.- (p16 protease, Human immunodeficiency virus 1)
+SB  - IM
+MH  - Catalysis
+MH  - *Cryobiology
+MH  - HIV Protease/*chemistry
+MH  - Humans
+MH  - Models, Molecular
+MH  - Molecular Structure
+MH  - *Quantum Theory
+EDAT- 2017/10/11 06:00
+MHDA- 2018/11/28 06:00
+CRDT- 2017/10/11 06:00
+PHST- 2017/10/11 06:00 [pubmed]
+PHST- 2018/11/28 06:00 [medline]
+PHST- 2017/10/11 06:00 [entrez]
+AID - 10.1021/acs.jctc.7b00768 [doi]
+PST - ppublish
+SO  - J Chem Theory Comput. 2017 Nov 14;13(11):5486-5495. doi: 10.1021/acs.jctc.7b00768. 
+      Epub 2017 Oct 25.
+
+PMID- 28905090
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20180625
+LR  - 20180710
+IS  - 1432-0614 (Electronic)
+IS  - 0175-7598 (Linking)
+VI  - 101
+IP  - 20
+DP  - 2017 Oct
+TI  - Thermodynamics of enzyme-catalyzed esterifications: II. Levulinic acid 
+      esterification with short-chain alcohols.
+PG  - 7509-7521
+LID - 10.1007/s00253-017-8481-4 [doi]
+AB  - Levulinic acid was esterified with methanol, ethanol, and 1-butanol with the final 
+      goal to predict the maximum yield of these equilibrium-limited reactions as function 
+      of medium composition. In a first step, standard reaction data (standard Gibbs 
+      energy of reaction Δ (R) g (0) ) were determined from experimental formation 
+      properties. Unexpectedly, these Δ (R) g (0) values strongly deviated from data 
+      obtained with classical group contribution methods that are typically used if 
+      experimental standard data is not available. In a second step, reaction equilibrium 
+      concentrations obtained from esterification catalyzed by Novozym 435 at 323.15 K 
+      were measured, and the corresponding activity coefficients of the reacting agents 
+      were predicted with perturbed-chain statistical associating fluid theory (PC-SAFT). 
+      The so-obtained thermodynamic activities were used to determine Δ (R) g (0) at 
+      323.15 K. These results could be used to cross-validate Δ (R) g (0) from 
+      experimental formation data. In a third step, reaction-equilibrium experiments 
+      showed that equilibrium position of the reactions under consideration depends 
+      strongly on the concentration of water and on the ratio of levulinic acid: alcohol 
+      in the initial reaction mixtures. The maximum yield of the esters was calculated 
+      using Δ (R) g (0) data from this work and activity coefficients of the reacting 
+      agents predicted with PC-SAFT for varying feed composition of the reaction mixtures. 
+      The use of the new Δ (R) g (0) data combined with PC-SAFT allowed good agreement to 
+      the measured yields, while predictions based on Δ (R) g (0) values obtained with 
+      group contribution methods showed high deviations to experimental yields.
+FAU - Altuntepe, Emrah
+AU  - Altuntepe E
+AD  - Laboratory of Thermodynamics, Department of Biochemical and Chemical Engineering, 
+      Technische Universität Dortmund, Emil-Figge-Str. 70, 44227, Dortmund, Germany.
+FAU - Emel'yanenko, Vladimir N
+AU  - Emel'yanenko VN
+AD  - Chemical Department, Samara State Technical University, Molodogvardeyskaya 244, 
+      Samara, Russia, 443100.
+FAU - Forster-Rotgers, Maximilian
+AU  - Forster-Rotgers M
+AD  - Laboratory of Thermodynamics, Department of Biochemical and Chemical Engineering, 
+      Technische Universität Dortmund, Emil-Figge-Str. 70, 44227, Dortmund, Germany.
+FAU - Sadowski, Gabriele
+AU  - Sadowski G
+AD  - Laboratory of Thermodynamics, Department of Biochemical and Chemical Engineering, 
+      Technische Universität Dortmund, Emil-Figge-Str. 70, 44227, Dortmund, Germany.
+FAU - Verevkin, Sergey P
+AU  - Verevkin SP
+AD  - Department of Physical Chemistry and Department of Science and Technology of Life, 
+      Light and Matter, University of Rostock, Dr-Lorenz-Weg 2, D-18059, Rostock, Germany.
+FAU - Held, Christoph
+AU  - Held C
+AUID- ORCID: 0000-0003-1074-177X
+AD  - Laboratory of Thermodynamics, Department of Biochemical and Chemical Engineering, 
+      Technische Universität Dortmund, Emil-Figge-Str. 70, 44227, Dortmund, Germany. 
+      christoph.held@bci.tu-dortmund.de.
+LA  - eng
+GR  - Leibniz award to G. Sadowski/Deutsche Forschungsgemeinschaft (DE)/
+GR  - the Cluster of Excellence RESOLV (EXC 1069)/Deutsche Forschungsgemeinschaft (DE)/
+GR  - 14.Z50.31.0038/Government of Russian Federation/
+PT  - Journal Article
+DEP - 20170914
+PL  - Germany
+TA  - Appl Microbiol Biotechnol
+JT  - Applied microbiology and biotechnology
+JID - 8406612
+RN  - 0 (Alcohols)
+RN  - 0 (Levulinic Acids)
+RN  - EC 3.1.1.- (Novozyme 435)
+RN  - EC 3.1.1.3 (Lipase)
+RN  - RYX5QG61EI (levulinic acid)
+SB  - IM
+MH  - Alcohols/*metabolism
+MH  - Esterification
+MH  - Kinetics
+MH  - Levulinic Acids/*metabolism
+MH  - Lipase/*metabolism
+MH  - Temperature
+MH  - *Thermodynamics
+OTO - NOTNLM
+OT  - Activity coefficient
+OT  - Enthalpy
+OT  - Novozym 435
+OT  - PC-SAFT
+OT  - Reaction equilibrium prediction
+OT  - Thermochemistry
+OT  - Vapor pressure
+OT  - Water activity
+EDAT- 2017/09/15 06:00
+MHDA- 2018/06/26 06:00
+CRDT- 2017/09/15 06:00
+PHST- 2017/06/05 00:00 [received]
+PHST- 2017/08/09 00:00 [accepted]
+PHST- 2017/08/04 00:00 [revised]
+PHST- 2017/09/15 06:00 [pubmed]
+PHST- 2018/06/26 06:00 [medline]
+PHST- 2017/09/15 06:00 [entrez]
+AID - 10.1007/s00253-017-8481-4 [pii]
+AID - 10.1007/s00253-017-8481-4 [doi]
+PST - ppublish
+SO  - Appl Microbiol Biotechnol. 2017 Oct;101(20):7509-7521. doi: 
+      10.1007/s00253-017-8481-4. Epub 2017 Sep 14.
+
+PMID- 28500386
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20180305
+LR  - 20180305
+IS  - 1432-0614 (Electronic)
+IS  - 0175-7598 (Linking)
+VI  - 101
+IP  - 15
+DP  - 2017 Aug
+TI  - Thermodynamics of enzyme-catalyzed esterifications: I. Succinic acid esterification 
+      with ethanol.
+PG  - 5973-5984
+LID - 10.1007/s00253-017-8287-4 [doi]
+AB  - Succinic acid (SA) was esterified with ethanol using Candida antarctica lipase B 
+      immobilized on acrylic resin at 40 and 50 °C. Enzyme activity in the reaction medium 
+      was assured prior to reaction experiments. Reaction-equilibrium experiments were 
+      performed for varying initial molalities of SA and water in the reaction mixtures. 
+      This allowed calculating the molality-based apparent equilibrium constant K (m) as 
+      function of concentration and temperature. K (m) was shown to depend strongly on the 
+      molality of water and SA as well as on temperature. It could be concluded that 
+      increasing the molality of SA shifted the reaction equilibrium towards the products. 
+      Water had a strong effect on the activity of the enzyme and on K (m) . The 
+      concentration dependence of K (m) values was explained by the activity coefficients 
+      of the reacting agents. These were predicted with the thermodynamic models 
+      Perturbed-Chain Statistical Associating Fluid Theory (PC-SAFT), NRTL, and Universal 
+      Quasichemical Functional Group Activity Coefficients (UNIFAC), yielding the ratio of 
+      activity coefficients of products and reactants K (γ) . All model parameters were 
+      taken from literature. The models yielded K (γ) values between 25 and 115. Thus, 
+      activity coefficients have a huge impact on the consistent determination of the 
+      thermodynamic equilibrium constants K (th). Combining K (m) and PC-SAFT-predicted K 
+      (γ) allowed determining K (th) and the standard Gibbs energy of reaction as function 
+      of temperature. This value was shown to be in very good agreement with results 
+      obtained from group contribution methods for Gibbs energy of formation. In contrast, 
+      inconsistencies were observed for K (th) using K (γ) values from the classical 
+      g(E)-models UNIFAC and NRTL. The importance of activity coefficients opens the door 
+      for an optimized reaction setup for enzymatic esterifications.
+FAU - Altuntepe, Emrah
+AU  - Altuntepe E
+AD  - Laboratory of Thermodynamics, Department of Biochemical and Chemical Engineering, 
+      Technische Universität Dortmund, Emil-Figge-Str. 70, 44227, Dortmund, Germany.
+FAU - Greinert, Thorsten
+AU  - Greinert T
+AD  - Laboratory of Thermodynamics, Department of Biochemical and Chemical Engineering, 
+      Technische Universität Dortmund, Emil-Figge-Str. 70, 44227, Dortmund, Germany.
+FAU - Hartmann, Felix
+AU  - Hartmann F
+AD  - Laboratory of Thermodynamics, Department of Biochemical and Chemical Engineering, 
+      Technische Universität Dortmund, Emil-Figge-Str. 70, 44227, Dortmund, Germany.
+FAU - Reinhardt, Annika
+AU  - Reinhardt A
+AD  - Laboratory of Thermodynamics, Department of Biochemical and Chemical Engineering, 
+      Technische Universität Dortmund, Emil-Figge-Str. 70, 44227, Dortmund, Germany.
+FAU - Sadowski, Gabriele
+AU  - Sadowski G
+AD  - Laboratory of Thermodynamics, Department of Biochemical and Chemical Engineering, 
+      Technische Universität Dortmund, Emil-Figge-Str. 70, 44227, Dortmund, Germany.
+FAU - Held, Christoph
+AU  - Held C
+AUID- ORCID: 0000-0003-1074-177X
+AD  - Laboratory of Thermodynamics, Department of Biochemical and Chemical Engineering, 
+      Technische Universität Dortmund, Emil-Figge-Str. 70, 44227, Dortmund, Germany. 
+      christoph.held@bci.tu-dortmund.de.
+LA  - eng
+PT  - Journal Article
+DEP - 20170512
+PL  - Germany
+TA  - Appl Microbiol Biotechnol
+JT  - Applied microbiology and biotechnology
+JID - 8406612
+RN  - 0 (Enzymes, Immobilized)
+RN  - 0 (Fungal Proteins)
+RN  - 059QF0KO0R (Water)
+RN  - 3K9958V90M (Ethanol)
+RN  - AB6MNQ6J6L (Succinic Acid)
+RN  - EC 3.1.1.- (Novozyme 435)
+RN  - EC 3.1.1.3 (Lipase)
+RN  - EC 3.1.1.3 (lipase B, Candida antarctica)
+SB  - IM
+MH  - Biocatalysis
+MH  - Enzymes, Immobilized/metabolism
+MH  - Esterification
+MH  - Ethanol/*metabolism
+MH  - Fungal Proteins/chemistry/*metabolism
+MH  - Hydrogen-Ion Concentration
+MH  - Kinetics
+MH  - Lipase/chemistry/*metabolism
+MH  - Succinic Acid/*metabolism
+MH  - Temperature
+MH  - Thermodynamics
+MH  - Water
+OTO - NOTNLM
+OT  - Activity coefficient
+OT  - Novozym 435
+OT  - PC-SAFT
+OT  - Reaction equilibrium
+OT  - Water activity
+EDAT- 2017/05/14 06:00
+MHDA- 2018/03/06 06:00
+CRDT- 2017/05/14 06:00
+PHST- 2017/01/26 00:00 [received]
+PHST- 2017/03/31 00:00 [accepted]
+PHST- 2017/03/29 00:00 [revised]
+PHST- 2017/05/14 06:00 [pubmed]
+PHST- 2018/03/06 06:00 [medline]
+PHST- 2017/05/14 06:00 [entrez]
+AID - 10.1007/s00253-017-8287-4 [pii]
+AID - 10.1007/s00253-017-8287-4 [doi]
+PST - ppublish
+SO  - Appl Microbiol Biotechnol. 2017 Aug;101(15):5973-5984. doi: 
+      10.1007/s00253-017-8287-4. Epub 2017 May 12.
+
+PMID- 27653185
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20170523
+LR  - 20170523
+IS  - 1520-4995 (Electronic)
+IS  - 0006-2960 (Linking)
+VI  - 55
+IP  - 40
+DP  - 2016 Oct 11
+TI  - Standard Gibbs Energy of Metabolic Reactions: I. Hexokinase Reaction.
+PG  - 5665-5674
+AB  - The standard Gibbs energy of reaction enables calculation of the driving force of a 
+      (bio)chemical reaction. Gibbs energies of reaction are required in thermodynamic 
+      approaches to determine fluxes as well as single reaction conversions of metabolic 
+      bioreactions. The hexokinase reaction (phosphorylation of glucose) is the entrance 
+      step of glycolysis, and thus its standard Gibbs energy of reaction (Δ(R)g°) is of 
+      great impact. Δ(R)g° is accessible from equilibrium measurements, and the very small 
+      concentrations of the reacting agents cause usually high error bars in data 
+      reduction steps. Even worse, works from literature do not account for the nonideal 
+      behavior of the reacting agents (activity coefficients were assumed to be unity); 
+      thus published Δ(R)g° values are not standard data. Consistent treatment of activity 
+      coefficients of reacting agents is crucial for the accurate determination of 
+      standard Gibbs energy from equilibrium measurements. In this work, equilibrium 
+      molalities of hexokinase reaction were measured with an enzyme kit. These results 
+      were combined with reacting agents' activity coefficients obtained with the 
+      thermodynamic model ePC-SAFT. Pure-component parameters for adenosine triphosphate 
+      (ATP) and adenosine diphosphate (ADP) were fitted to experimental osmotic 
+      coefficients (water + Na(2)ATP, water + NaADP). Δ(R)g° of the hexokinase reaction at 
+      298.15 K and pH 7 was found to be -17.83 ± 0.52 kJ·mol(-1). This value was compared 
+      with experimental literature data; very good agreement between the different Δ(R)g° 
+      values was obtained by accounting for pH, pMg, and the activity coefficients of the 
+      reacting agents.
+FAU - Meurer, Florian
+AU  - Meurer F
+AD  - Laboratory of Thermodynamics, Department of Biochemical and Chemical Engineering, 
+      Technische Universität Dortmund , Emil-Figge-Str. 70, 44227 Dortmund, Germany.
+FAU - Bobrownik, Maria
+AU  - Bobrownik M
+AD  - Laboratory of Thermodynamics, Department of Biochemical and Chemical Engineering, 
+      Technische Universität Dortmund , Emil-Figge-Str. 70, 44227 Dortmund, Germany.
+FAU - Sadowski, Gabriele
+AU  - Sadowski G
+AD  - Laboratory of Thermodynamics, Department of Biochemical and Chemical Engineering, 
+      Technische Universität Dortmund , Emil-Figge-Str. 70, 44227 Dortmund, Germany.
+FAU - Held, Christoph
+AU  - Held C
+AD  - Laboratory of Thermodynamics, Department of Biochemical and Chemical Engineering, 
+      Technische Universität Dortmund , Emil-Figge-Str. 70, 44227 Dortmund, Germany.
+LA  - eng
+PT  - Journal Article
+DEP - 20160929
+PL  - United States
+TA  - Biochemistry
+JT  - Biochemistry
+JID - 0370623
+RN  - EC 2.7.1.1 (Hexokinase)
+SB  - IM
+MH  - Hexokinase/*metabolism
+MH  - Hydrogen Bonding
+MH  - Models, Theoretical
+MH  - Phosphorylation
+MH  - Thermodynamics
+EDAT- 2016/09/23 06:00
+MHDA- 2017/05/24 06:00
+CRDT- 2016/09/23 06:00
+PHST- 2016/09/23 06:00 [pubmed]
+PHST- 2017/05/24 06:00 [medline]
+PHST- 2016/09/23 06:00 [entrez]
+AID - 10.1021/acs.biochem.6b00471 [doi]
+PST - ppublish
+SO  - Biochemistry. 2016 Oct 11;55(40):5665-5674. doi: 10.1021/acs.biochem.6b00471. Epub 
+      2016 Sep 29.
+
+PMID- 27276551
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20170531
+LR  - 20170531
+IS  - 1947-5446 (Electronic)
+IS  - 1947-5438 (Linking)
+VI  - 7
+DP  - 2016 Jun 7
+TI  - Thermodynamics of Bioreactions.
+PG  - 395-414
+LID - 10.1146/annurev-chembioeng-080615-034704 [doi]
+AB  - Thermodynamic principles have been applied to enzyme-catalyzed reactions since the 
+      beginning of the 1930s in an attempt to understand metabolic pathways. Currently, 
+      thermodynamics is also applied to the design and analysis of biotechnological 
+      processes. The key thermodynamic quantity is the Gibbs energy of reaction, which 
+      must be negative for a reaction to occur spontaneously. However, the application of 
+      thermodynamic feasibility studies sometimes yields positive Gibbs energies of 
+      reaction even for reactions that are known to occur spontaneously, such as 
+      glycolysis. This article reviews the application of thermodynamics in 
+      enzyme-catalyzed reactions. It summarizes the basic thermodynamic relationships used 
+      for describing the Gibbs energy of reaction and also refers to the nonuniform 
+      application of these relationships in the literature. The review summarizes 
+      state-of-the-art approaches that describe the influence of temperature, pH, 
+      electrolytes, solvents, and concentrations of reacting agents on the Gibbs energy of 
+      reaction and, therefore, on the feasibility and yield of biological reactions.
+FAU - Held, Christoph
+AU  - Held C
+AD  - Laboratory of Thermodynamics, Department of Biochemical and Chemical Engineering, 
+      Technische Universität Dortmund, 44227 Dortmund, Germany; email: 
+      gabriele.sadowski@bci.tu-dortmund.de.
+FAU - Sadowski, Gabriele
+AU  - Sadowski G
+AD  - Laboratory of Thermodynamics, Department of Biochemical and Chemical Engineering, 
+      Technische Universität Dortmund, 44227 Dortmund, Germany; email: 
+      gabriele.sadowski@bci.tu-dortmund.de.
+LA  - eng
+PT  - Journal Article
+PT  - Review
+PL  - United States
+TA  - Annu Rev Chem Biomol Eng
+JT  - Annual review of chemical and biomolecular engineering
+JID - 101574034
+RN  - 0 (Electrolytes)
+RN  - 0 (Enzymes)
+RN  - 0 (Solvents)
+SB  - IM
+MH  - Biocatalysis
+MH  - Electrolytes/chemistry
+MH  - Enzymes/chemistry/*metabolism
+MH  - Hydrogen-Ion Concentration
+MH  - Kinetics
+MH  - Solvents/chemistry
+MH  - Temperature
+MH  - Thermodynamics
+OTO - NOTNLM
+OT  - *Gibbs energy of reaction
+OT  - *activity coefficients
+OT  - *biothermodynamics
+OT  - *reaction equilibrium
+OT  - *solubility
+EDAT- 2016/06/09 06:00
+MHDA- 2017/06/01 06:00
+CRDT- 2016/06/09 06:00
+PHST- 2016/06/09 06:00 [entrez]
+PHST- 2016/06/09 06:00 [pubmed]
+PHST- 2017/06/01 06:00 [medline]
+AID - 10.1146/annurev-chembioeng-080615-034704 [doi]
+PST - ppublish
+SO  - Annu Rev Chem Biomol Eng. 2016 Jun 7;7:395-414. doi: 
+      10.1146/annurev-chembioeng-080615-034704.
+
+PMID- 25190480
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20150519
+LR  - 20140913
+IS  - 1873-4200 (Electronic)
+IS  - 0301-4622 (Linking)
+VI  - 195
+DP  - 2014 Dec
+TI  - A thermodynamic investigation of the glucose-6-phosphate isomerization.
+PG  - 22-31
+LID - S0301-4622(14)00091-X [pii]
+LID - 10.1016/j.bpc.2014.08.002 [doi]
+AB  - In this work, Δ(R)g(+) values for the enzymatic G6P isomerization were determined as 
+      a function of the G6P equilibrium molality between 25 °C and 37 °C. The reaction 
+      mixtures were buffered at pH=8.5. In contrast to standard literature work, Δ(R)g(+) 
+      values were determined from activity-based equilibrium constants instead of 
+      molality-based apparent values. This yielded a Δ(R)g(+) value of 2.55±0.05 kJ 
+      mol(-1) at 37 °C, independent of the solution pH between 7.5 and 8.5. Furthermore, 
+      Δ(R)h(+) was measured at pH=8.5 and 25 °C yielding 12.05±0.2 kJ mol(-1). Accounting 
+      for activity coefficients turned out to influence Δ(R)g(+) up to 30% upon increasing 
+      the G6P molality. This result was confirmed by predictions using the thermodynamic 
+      model ePC-SAFT. Finally, the influence of the buffer and of potassium glutamate as 
+      an additive on the reaction equilibrium was measured and predicted with ePC-SAFT in 
+      good agreement.
+CI  - Copyright © 2014 Elsevier B.V. All rights reserved.
+FAU - Hoffmann, Philip
+AU  - Hoffmann P
+AD  - Laboratory of Thermodynamics, Department of Biochemical and Chemical Engineering, TU 
+      Dortmund, Emil-Figge-Str. 70, 44227 Dortmund, Germany.
+FAU - Held, Christoph
+AU  - Held C
+AD  - Laboratory of Thermodynamics, Department of Biochemical and Chemical Engineering, TU 
+      Dortmund, Emil-Figge-Str. 70, 44227 Dortmund, Germany. Electronic address: 
+      christoph.held@bci.tu-dortmund.de.
+FAU - Maskow, Thomas
+AU  - Maskow T
+AD  - Department of Environmental Microbiology, UFZ Centre for Environmental Research 
+      Leipzig-Halle GmbH, Permoserstr. 15, 04318 Leipzig, Germany.
+FAU - Sadowski, Gabriele
+AU  - Sadowski G
+AD  - Laboratory of Thermodynamics, Department of Biochemical and Chemical Engineering, TU 
+      Dortmund, Emil-Figge-Str. 70, 44227 Dortmund, Germany.
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20140821
+PL  - Netherlands
+TA  - Biophys Chem
+JT  - Biophysical chemistry
+JID - 0403171
+RN  - 3KX376GY7L (Glutamic Acid)
+RN  - 56-73-5 (Glucose-6-Phosphate)
+SB  - IM
+MH  - Glucose-6-Phosphate/*chemistry
+MH  - Glutamic Acid/chemistry
+MH  - Hydrogen-Ion Concentration
+MH  - Isomerism
+MH  - Kinetics
+MH  - Temperature
+MH  - Thermodynamics
+OTO - NOTNLM
+OT  - Activity coefficient
+OT  - Enthalpy of reaction
+OT  - Gibbs energy of reaction
+OT  - Glycolysis
+OT  - Thermodynamic equilibrium constant
+OT  - ePC-SAFT
+EDAT- 2014/09/06 06:00
+MHDA- 2015/05/20 06:00
+CRDT- 2014/09/06 06:00
+PHST- 2014/06/24 00:00 [received]
+PHST- 2014/08/07 00:00 [revised]
+PHST- 2014/08/09 00:00 [accepted]
+PHST- 2014/09/06 06:00 [entrez]
+PHST- 2014/09/06 06:00 [pubmed]
+PHST- 2015/05/20 06:00 [medline]
+AID - S0301-4622(14)00091-X [pii]
+AID - 10.1016/j.bpc.2014.08.002 [doi]
+PST - ppublish
+SO  - Biophys Chem. 2014 Dec;195:22-31. doi: 10.1016/j.bpc.2014.08.002. Epub 2014 Aug 21.
+
+PMID- 23056605
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20130531
+LR  - 20181113
+IS  - 1932-6203 (Electronic)
+IS  - 1932-6203 (Linking)
+VI  - 7
+IP  - 10
+DP  - 2012
+TI  - How metal substitution affects the enzymatic activity of 
+      catechol-o-methyltransferase.
+PG  - e47172
+LID - 10.1371/journal.pone.0047172 [doi]
+LID - e47172
+AB  - Catechol-O-methyltransferase (COMT) degrades catecholamines, such as dopamine and 
+      epinephrine, by methylating them in the presence of a divalent metal cation (usually 
+      Mg(II)), and S-adenosyl-L-methionine. The enzymatic activity of COMT is known to be 
+      vitally dependent on the nature of the bound metal: replacement of Mg(II) with 
+      Ca(II) leads to a complete deactivation of COMT; Fe(II) is slightly less than potent 
+      Mg(II), and Fe(III) is again an inhibitor. Considering the fairly modest role that 
+      the metal plays in the catalyzed reaction, this dependence is puzzling, and to date 
+      remains an enigma. Using a quantum mechanical / molecular mechanical dynamics method 
+      for extensive sampling of protein structure, and first principle quantum mechanical 
+      calculations for the subsequent mechanistic study, we explicate the effect of metal 
+      substitution on the rate determining step in the catalytic cycle of COMT, the methyl 
+      transfer. In full accord with experimental data, Mg(II) bound to COMT is the most 
+      potent of the studied cations and it is closely followed by Fe(II), whereas Fe(III) 
+      is unable to promote catalysis. In the case of Ca(II), a repacking of the protein 
+      binding site is observed, leading to a significant increase in the activation 
+      barrier and higher energy of reaction. Importantly, the origin of the effect of 
+      metal substitution is different for different metals: for Fe(III) it is the 
+      electronic effect, whereas in the case of Ca(II) it is instead the effect of 
+      suboptimal protein structure.
+FAU - Sparta, Manuel
+AU  - Sparta M
+AD  - Department of Chemistry and Biochemistry, University of California Los Angeles, 
+      United States of America.
+FAU - Alexandrova, Anastassia N
+AU  - Alexandrova AN
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20121008
+TA  - PLoS One
+JT  - PloS one
+JID - 101285081
+RN  - 0 (Ferric Compounds)
+RN  - 0 (Ferrous Compounds)
+RN  - 0 (Metals)
+RN  - EC 2.1.1.6 (Catechol O-Methyltransferase)
+RN  - SY7Q814VUP (Calcium)
+SB  - IM
+MH  - Binding Sites
+MH  - Calcium/chemistry/metabolism
+MH  - Catechol O-Methyltransferase/*chemistry/*metabolism
+MH  - Ferric Compounds/chemistry/metabolism
+MH  - Ferrous Compounds/chemistry/metabolism
+MH  - Metals/*chemistry/*metabolism
+MH  - Protein Binding
+MH  - Protein Structure, Secondary
+MH  - Structure-Activity Relationship
+PMC - PMC3466255
+COIS- Competing Interests: The authors have declared that no competing interests exist.
+EDAT- 2012/10/12 06:00
+MHDA- 2013/06/01 06:00
+CRDT- 2012/10/12 06:00
+PHST- 2012/08/15 00:00 [received]
+PHST- 2012/09/10 00:00 [accepted]
+PHST- 2012/10/12 06:00 [entrez]
+PHST- 2012/10/12 06:00 [pubmed]
+PHST- 2013/06/01 06:00 [medline]
+AID - PONE-D-12-24391 [pii]
+AID - 10.1371/journal.pone.0047172 [doi]
+PST - ppublish
+SO  - PLoS One. 2012;7(10):e47172. doi: 10.1371/journal.pone.0047172. Epub 2012 Oct 8.
+
+PMID- 21523538
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20120622
+LR  - 20181113
+IS  - 0948-5023 (Electronic)
+IS  - 0948-5023 (Linking)
+VI  - 18
+IP  - 1
+DP  - 2012 Jan
+TI  - Brønsted-Evans-Polanyi relationships for C-C bond forming and C-C bond breaking 
+      reactions in thiamine-catalyzed decarboxylation of 2-keto acids using density 
+      functional theory.
+PG  - 145-50
+LID - 10.1007/s00894-011-1062-z [doi]
+AB  - The concept of generalized enzyme reactions suggests that a wide variety of 
+      substrates can undergo enzymatic transformations, including those whose 
+      biotransformation has not yet been realized. The use of quantum chemistry to 
+      evaluate kinetic feasibility is an attractive approach to identify enzymes for the 
+      proposed transformation. However, the sheer number of novel transformations that can 
+      be generated makes this impractical as a screening approach. Therefore, it is 
+      essential to develop structure/activity relationships based on quantities that are 
+      more efficient to calculate. In this work, we propose a structure/activity 
+      relationship based on the free energy of binding or reaction of non-native 
+      substrates to evaluate the catalysis relative to that of native substrates. While 
+      Brønsted-Evans-Polanyi (BEP) relationships such as that proposed here have found 
+      broad application in heterogeneous catalysis, their extension to enzymatic catalysis 
+      is limited. We report here on density functional theory (DFT) studies for C-C bond 
+      formation and C-C bond cleavage associated with the decarboxylation of six 2-keto 
+      acids by a thiamine-containing enzyme (EC 1.2.7.1) and demonstrate a linear 
+      relationship between the free energy of reaction and the activation barrier. We then 
+      applied this relationship to predict the activation barriers of 17 chemically 
+      similar novel reactions. These calculations reveal that there is a clear correlation 
+      between the free energy of formation of the transition state and the free energy of 
+      the reaction, suggesting that this method can be further extended to predict the 
+      kinetics of novel reactions through our computational framework for discovery of 
+      novel biochemical transformations.
+FAU - Assary, Rajeev Surendran
+AU  - Assary RS
+AD  - Department of Chemical and Biological Engineering, Northwestern University, 
+      Evanston, IL 60208, USA. Rajeev@anl.gov
+FAU - Broadbelt, Linda J
+AU  - Broadbelt LJ
+FAU - Curtiss, Larry A
+AU  - Curtiss LA
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, U.S. Gov't, Non-P.H.S.
+DEP - 20110427
+PL  - Germany
+TA  - J Mol Model
+JT  - Journal of molecular modeling
+JID - 9806569
+RN  - 0 (Keto Acids)
+RN  - X66NSO3N35 (Thiamine)
+SB  - IM
+MH  - Binding Sites
+MH  - Catalysis
+MH  - Decarboxylation
+MH  - Keto Acids/*chemistry
+MH  - Kinetics
+MH  - Models, Chemical
+MH  - Structure-Activity Relationship
+MH  - Thiamine/*chemistry
+EDAT- 2011/04/28 06:00
+MHDA- 2012/06/23 06:00
+CRDT- 2011/04/28 06:00
+PHST- 2011/02/17 00:00 [received]
+PHST- 2011/03/22 00:00 [accepted]
+PHST- 2011/04/28 06:00 [entrez]
+PHST- 2011/04/28 06:00 [pubmed]
+PHST- 2012/06/23 06:00 [medline]
+AID - 10.1007/s00894-011-1062-z [doi]
+PST - ppublish
+SO  - J Mol Model. 2012 Jan;18(1):145-50. doi: 10.1007/s00894-011-1062-z. Epub 2011 Apr 
+      27.
+
+PMID- 20694172
+OWN - NLM
+STAT- Publisher
+LR  - 20191120
+IS  - 1549-9626 (Electronic)
+IS  - 1549-9618 (Print)
+IS  - 1549-9618 (Linking)
+VI  - 6
+IP  - 7
+DP  - 2010 Jul 13
+TI  - A Non-Orthogonal Block-Localized Effective Hamiltonian Approach for Chemical and 
+      Enzymatic Reactions.
+PG  - 2242-2251
+AB  - The effective Hamiltonian-molecular orbital and valence bond (EH-MOVB) method based 
+      on non-orthogonal block-localized fragment orbitals has been implemented into the 
+      program CHARMM for molecular dynamics simulations of chemical and enzymatic 
+      reactions, making use of semiempirical quantum mechanical models. Building upon ab 
+      initio MOVB theory, we make use of two parameters in the EH-MOVB method to fit the 
+      barrier height and the relative energy between the reactant and product state for a 
+      given chemical reaction to be in agreement with experiment or high-level ab initio 
+      or density functional results. Consequently, the EH-MOVB method provides a highly 
+      accurate and computationally efficient QM/MM model for dynamics simulation of 
+      chemical reactions in solution. The EH-MOVB method is illustrated by examination of 
+      the potential energy surface of the hydride transfer reaction from trimethylamine to 
+      a flavin cofactor model in the gas phase. In the present study, we employed the 
+      semiempirical AM1 model, which yields a reaction barrier that is more than 5 
+      kcal/mol too high. We use a parameter calibration procedure for the EH-MOVB method 
+      similar to that employed to adjust the results of semiempirical and empirical 
+      models. Thus, the relative energy of these two diabatic states can be shifted to 
+      reproduce the experimental energy of reaction, and the barrier height is optimized 
+      to reproduce the desired (accurate) value by adding a constant to the off-diagonal 
+      matrix element. The present EH-MOVB method offers a viable approach to 
+      characterizing solvent and protein-reorganization effects in the realm of combined 
+      QM/MM simulations.
+FAU - Cembran, Alessandro
+AU  - Cembran A
+AD  - Department of Chemistry, Digital Technology Center and Supercomputing Institute, 
+      University of Minnesota, Minneapolis, MN 55455 And Department of Chemistry, Western 
+      Michigan University Kalamazoo, Michigan 49008.
+FAU - Payaka, Apirak
+AU  - Payaka A
+FAU - Lin, Yen-Lin
+AU  - Lin YL
+FAU - Xie, Wangshen
+AU  - Xie W
+FAU - Mo, Yirong
+AU  - Mo Y
+FAU - Song, Lingchun
+AU  - Song L
+FAU - Gao, Jiali
+AU  - Gao J
+LA  - eng
+GR  - R01 GM046736/GM/NIGMS NIH HHS/United States
+GR  - R01 GM046736-17/GM/NIGMS NIH HHS/United States
+PT  - Journal Article
+TA  - J Chem Theory Comput
+JT  - Journal of chemical theory and computation
+JID - 101232704
+PMC - PMC2914346
+MID - NIHMS211399
+EDAT- 2010/08/10 06:00
+MHDA- 2010/08/10 06:00
+CRDT- 2010/08/10 06:00
+PHST- 2010/08/10 06:00 [entrez]
+PHST- 2010/08/10 06:00 [pubmed]
+PHST- 2010/08/10 06:00 [medline]
+AID - 10.1021/ct1001686 [doi]
+PST - ppublish
+SO  - J Chem Theory Comput. 2010 Jul 13;6(7):2242-2251. doi: 10.1021/ct1001686.
+
+PMID- 19839610
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20100201
+LR  - 20131121
+IS  - 1520-5207 (Electronic)
+IS  - 1520-5207 (Linking)
+VI  - 113
+IP  - 46
+DP  - 2009 Nov 19
+TI  - Sequence specific interaction between promoter DNA and Escherichia coli RNA 
+      polymerase: comparative thermodynamic analysis with one immobilized partner.
+PG  - 15399-408
+LID - 10.1021/jp9071197 [doi]
+AB  - Sequence specific interaction between DNA and protein molecules has been a subject 
+      of active investigation for decades now. Here, we have chosen single promoter 
+      containing bacteriophage DeltaD(III) T7 DNA and Escherichia coli RNA polymerase and 
+      followed their recognition at the air-water interface by using the surface plasmon 
+      resonance (SPR) technique, where the movement of one of the reacting species is 
+      restricted by way of arraying them on an immobilized support. For the Langmuir 
+      monolayer studies, we used a RNA polymerase with a histidine tag attached to one of 
+      its subunits, thus making it an excellent substrate for Ni(II) ions, while the SPR 
+      studies were done using biotin-labeled DNA immobilized on a streptavidin-coated 
+      chip. Detailed analysis of the thermodynamic parameters as a function of 
+      concentration and temperature revealed that the interaction of RNA polymerase with 
+      T7 DNA is largely entropy driven (83 (+/-12) kcal mol(-1)) with a positive enthalpy 
+      of 13.6 (+/-3.6) kcal mol(-1). The free energy of reaction determined by SPR and 
+      Langmuir-Blodgett technique was -11 (+/-2) and -15.6 kcal mol(-1), respectively. The 
+      ability of these methods to retain the specificity of the recognition process was 
+      also established.
+FAU - Ganguly, Abantika
+AU  - Ganguly A
+AD  - Molecular Biophysics Unit, Indian Institute of Science, Bangalore-560012, India.
+FAU - Rajdev, Priya
+AU  - Rajdev P
+FAU - Chatterji, Dipankar
+AU  - Chatterji D
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+PL  - United States
+TA  - J Phys Chem B
+JT  - The journal of physical chemistry. B
+JID - 101157530
+RN  - 0 (Immobilized Proteins)
+RN  - 7OV03QG267 (Nickel)
+RN  - 9007-49-2 (DNA)
+RN  - EC 2.7.7.6 (DNA-Directed RNA Polymerases)
+SB  - IM
+MH  - Bacteriophage T7/genetics
+MH  - Base Sequence
+MH  - DNA/*chemistry/metabolism
+MH  - DNA-Directed RNA Polymerases/*chemistry/genetics/metabolism
+MH  - Escherichia coli/*enzymology
+MH  - Immobilized Proteins/metabolism
+MH  - Kinetics
+MH  - Microscopy, Atomic Force
+MH  - Nickel/chemistry
+MH  - Promoter Regions, Genetic
+MH  - Protein Binding
+MH  - Surface Plasmon Resonance
+MH  - Thermodynamics
+EDAT- 2009/10/21 06:00
+MHDA- 2010/02/02 06:00
+CRDT- 2009/10/21 06:00
+PHST- 2009/10/21 06:00 [entrez]
+PHST- 2009/10/21 06:00 [pubmed]
+PHST- 2010/02/02 06:00 [medline]
+AID - 10.1021/jp9071197 [doi]
+PST - ppublish
+SO  - J Phys Chem B. 2009 Nov 19;113(46):15399-408. doi: 10.1021/jp9071197.
+
+PMID- 17497918
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20070802
+LR  - 20131121
+IS  - 1520-6106 (Print)
+IS  - 1520-5207 (Linking)
+VI  - 111
+IP  - 24
+DP  - 2007 Jun 21
+TI  - H and other transfers in enzymes and in solution: theory and computations, a unified 
+      view. 2. Applications to experiment and computations.
+PG  - 6643-54
+AB  - Equations obtained in part I for the free-energy barrier to one-step enzymatic 
+      reactions between bound reactants are discussed. The rate is expressed in terms of 
+      lambdao (protein reorganization energy), DeltaG(o) (standard free energy of reaction 
+      of the H-transfer step), bond breaking/bond forming term, w (work terms), and 
+      H-transmission property. Two alternative approximations for the coupling of the bond 
+      breaking/bond forming and protein are distinguished experimentally in favorable 
+      cases by the DeltaG(o) where the maximum deuterium kinetic isotope effect occurs. 
+      Plots of log rate versus DeltaG(o) and properties such as DeltaS* and DeltaS(o) are 
+      discussed. The weak or zero T-dependence of the kinetic isotope effect for wild-type 
+      enzymes operating under physiological conditions is interpreted in terms of 
+      vanishing (or isotopically insensitive) w plus transfer from the lowest H-state. 
+      Static and dynamic protein flexibility is discussed. While the many correlations 
+      accessible for electron transfers are not available for H-transfers in enzymes, a 
+      combination of experiment, computation, and analytical approaches can assist in 
+      evaluating the utility of the present equations and in suggesting further 
+      experiments and computations. A protein reorganization energy lambdao is obtained in 
+      the literature from the extended valence bond formalism where diabatic electronic 
+      states are used. A method is suggested for extracting it when instead a bond 
+      distance difference coordinate is used. The results may provide a bridge between the 
+      two approaches.
+FAU - Marcus, R A
+AU  - Marcus RA
+AD  - Noyes Laboratory of Chemical Physics, MC 127-72, California Institute of Technology, 
+      Pasadena, California 91125-0072, USA. ram@caltech.edu
+LA  - eng
+PT  - Journal Article
+DEP - 20070512
+PL  - United States
+TA  - J Phys Chem B
+JT  - The journal of physical chemistry. B
+JID - 101157530
+RN  - 0 (Enzymes)
+RN  - 0 (Solutions)
+RN  - 7YNJ3PO35Z (Hydrogen)
+RN  - AR09D82C7G (Deuterium)
+SB  - IM
+MH  - Deuterium/chemistry
+MH  - *Energy Transfer
+MH  - Enzymes/*chemistry
+MH  - Hydrogen/*chemistry
+MH  - Kinetics
+MH  - *Models, Chemical
+MH  - Solutions
+EDAT- 2007/05/15 09:00
+MHDA- 2007/08/03 09:00
+CRDT- 2007/05/15 09:00
+PHST- 2007/05/15 09:00 [pubmed]
+PHST- 2007/08/03 09:00 [medline]
+PHST- 2007/05/15 09:00 [entrez]
+AID - 10.1021/jp071589s [doi]
+PST - ppublish
+SO  - J Phys Chem B. 2007 Jun 21;111(24):6643-54. doi: 10.1021/jp071589s. Epub 2007 May 
+      12.
+
+PMID- 17011697
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20070322
+LR  - 20210108
+IS  - 0301-4622 (Print)
+IS  - 0301-4622 (Linking)
+VI  - 125
+IP  - 2-3
+DP  - 2007 Feb
+TI  - Changes in binding of hydrogen ions in enzyme-catalyzed reactions.
+PG  - 328-33
+AB  - Most enzyme-catalyzed reactions produce or consume hydrogen ions, and this is 
+      expressed by the change in the binding of hydrogen ions in the biochemical reaction, 
+      as written in terms of reactants (sums of species). This property of a biochemical 
+      reaction is important because it determines the change in the apparent equilibrium 
+      constant K' with pH. This property is also important because it is the number of 
+      moles of hydrogen ions that can be produced by a biochemical reaction for passage 
+      through a membrane, or can be accepted from a transfer through a membrane. There are 
+      two ways to calculate the change in binding of hydrogen ions for an enzyme-catalyzed 
+      reaction. The first, which has been used for a long time, involves calculating the 
+      partial derivative of the standard transformed Gibbs energy of reaction with respect 
+      to pH. The second involves calculating the average numbers of hydrogen ions in each 
+      reactant and adding and subtracting these average numbers. The changes in binding of 
+      hydrogen ions calculated by the second method at pHs 5, 6, 7, 8, and 9 are given for 
+      23 enzyme-catalyzed reactions. Values are given for 206 more reactions on the web. 
+      This database can be extended to include more reactions for which pKs of reactants 
+      are known or can be estimated.
+FAU - Alberty, Robert A
+AU  - Alberty RA
+AD  - Department of Chemistry, Room 6-215, Massachusetts Institute of Technology, 
+      Cambridge, MA 02139, USA. alberty@mit.edu
+LA  - eng
+GR  - 5-R01-GM48348-10/GM/NIGMS NIH HHS/United States
+GR  - R01 GM048358-09/GM/NIGMS NIH HHS/United States
+PT  - Journal Article
+PT  - Research Support, N.I.H., Extramural
+DEP - 20061002
+TA  - Biophys Chem
+JT  - Biophysical chemistry
+JID - 0403171
+RN  - 0 (Enzymes)
+SB  - IM
+MH  - Catalysis
+MH  - Databases, Factual
+MH  - Enzymes/*chemistry/metabolism
+MH  - *Hydrogen Bonding
+MH  - Hydrogen-Ion Concentration
+MH  - Kinetics
+MH  - Models, Chemical
+PMC - PMC1993237
+MID - NIHMS17610
+EDAT- 2006/10/03 09:00
+MHDA- 2007/03/23 09:00
+CRDT- 2006/10/03 09:00
+PHST- 2006/09/07 00:00 [received]
+PHST- 2006/09/14 00:00 [revised]
+PHST- 2006/09/14 00:00 [accepted]
+PHST- 2006/10/03 09:00 [pubmed]
+PHST- 2007/03/23 09:00 [medline]
+PHST- 2006/10/03 09:00 [entrez]
+AID - S0301-4622(06)00272-9 [pii]
+AID - 10.1016/j.bpc.2006.09.007 [doi]
+PST - ppublish
+SO  - Biophys Chem. 2007 Feb;125(2-3):328-33. doi: 10.1016/j.bpc.2006.09.007. Epub 2006 
+      Oct 2.
+
+PMID- 16844226
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20061121
+LR  - 20151119
+IS  - 0162-0134 (Print)
+IS  - 0162-0134 (Linking)
+VI  - 100
+IP  - 10
+DP  - 2006 Oct
+TI  - Probing Aspergillus niger glucose oxidase with pentacyanoferrate(III) aza- and 
+      thia-complexes.
+PG  - 1614-22
+AB  - Complexes of pentacyanoferrate(III) and biologically relevant ligands, such as 
+      pyridine, pyrazole, imidazole, histidine, and other aza- and thia-heterocycles, were 
+      synthesized. Their spectral, electrochemical properties, electron exchange 
+      constants, electronic structure parameters, and reactivity with glucose oxidase from 
+      Aspergillus niger were determined. The formation of the complexes following ammonia 
+      replacement by the ligands was associated with the appearance of a new band of 
+      absorbance in the visible spectrum. The constants of the complexes formation 
+      calculated at a ligand-pentacyanoferrate(III) concentrations ratio of 10:1, were 7.5 
+      x 10(-5), 7.7 x 10(-5), and 1.8 x 10(-3) s(-1) for benzotriazole, benzimidazole, and 
+      aminothiazole ligands, respectively. The complexes showed quasi-reversible redox 
+      conversion at a glassy carbon electrode. The redox potential of the complexes 
+      spanned the potential range from 70 to 240 mV vs. saturated calomel electrode (SCE) 
+      at pH7.2. For most of the complexes self-exchange constants (k(11)) were similar to 
+      or larger than that of hexacyanoferrate(III) (ferricyanide). The complexes 
+      containing pyridine derivatives and thia-heterocyclic ligands held a lower value of 
+      k(11) than that of ferricyanide. All complexes reacted with reduced glucose oxidase 
+      at pH7.2. The reactivity of the complex containing pyrazole was the largest in 
+      comparison to the rest of the complexes. Correlations between the complexes' 
+      reactivity and both the free energy of reaction and k(11) shows that the reactivity 
+      of pentacyanoferrates obeys the principles of Marcus's electron transfer theory. The 
+      obtained data suggest that large negative charges of the complexes decrease their 
+      reactivity.
+FAU - Kulys, J
+AU  - Kulys J
+AD  - Institute of Biochemistry, Mokslininku 12, LT-08662 Vilnius, Lithuania. 
+      jkulys@bchi.lt
+FAU - Tetianec, L
+AU  - Tetianec L
+FAU - Ziemys, A
+AU  - Ziemys A
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20060613
+PL  - United States
+TA  - J Inorg Biochem
+JT  - Journal of inorganic biochemistry
+JID - 7905788
+RN  - 0 (Benzimidazoles)
+RN  - 0 (Ferric Compounds)
+RN  - 0 (Imidazoles)
+RN  - 0 (Pyrazoles)
+RN  - 0 (Pyridines)
+RN  - 0 (Thiadiazoles)
+RN  - 0 (Triazoles)
+RN  - 0 (pentacyanoferrate (III))
+RN  - 3QD5KJZ7ZJ (pyrazole)
+RN  - 4QD397987E (Histidine)
+RN  - 6L41AOK74P (2-amino-1,3,4-thiadiazole)
+RN  - 7GBN705NH1 (imidazole)
+RN  - 86110UXM5Y (benzotriazole)
+RN  - E24GX49LD8 (benzimidazole)
+RN  - EC 1.1.3.4 (Glucose Oxidase)
+RN  - NH9L3PP67S (pyridine)
+SB  - IM
+MH  - Aspergillus niger/*enzymology
+MH  - Benzimidazoles/chemistry/metabolism
+MH  - Ferric Compounds/chemistry/*metabolism
+MH  - Glucose Oxidase/chemistry/*metabolism
+MH  - Histidine/chemistry/metabolism
+MH  - Imidazoles/chemistry/metabolism
+MH  - Models, Chemical
+MH  - Models, Molecular
+MH  - Oxidation-Reduction
+MH  - Pyrazoles/chemistry/metabolism
+MH  - Pyridines/chemistry/metabolism
+MH  - Structure-Activity Relationship
+MH  - Thiadiazoles/chemistry/metabolism
+MH  - Triazoles/chemistry/metabolism
+EDAT- 2006/07/18 09:00
+MHDA- 2006/12/09 09:00
+CRDT- 2006/07/18 09:00
+PHST- 2006/01/10 00:00 [received]
+PHST- 2006/05/18 00:00 [revised]
+PHST- 2006/05/23 00:00 [accepted]
+PHST- 2006/07/18 09:00 [pubmed]
+PHST- 2006/12/09 09:00 [medline]
+PHST- 2006/07/18 09:00 [entrez]
+AID - S0162-0134(06)00159-0 [pii]
+AID - 10.1016/j.jinorgbio.2006.05.017 [doi]
+PST - ppublish
+SO  - J Inorg Biochem. 2006 Oct;100(10):1614-22. doi: 10.1016/j.jinorgbio.2006.05.017. 
+      Epub 2006 Jun 13.
+
+PMID- 15137737
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20040819
+LR  - 20091103
+IS  - 0002-7863 (Print)
+IS  - 0002-7863 (Linking)
+VI  - 126
+IP  - 19
+DP  - 2004 May 19
+TI  - Computational study of the ground state of thermophilic indole glycerol phosphate 
+      synthase: structural alterations at the active site with temperature.
+PG  - 5936-7
+AB  - Hyperthermophlic indole-3-glycerol phosphate synthase (IGPS) catalyzes the terminal 
+      ring-closure step in tryptophan biosynthesis. In this paper, we compare the results 
+      from the molecular dynamics (MD) simulation of enzyme-bound substrate at 298 K 
+      (E.S298) and 385 K (E.S385) solvated in the TIP3P water box using the CHARMM force 
+      field to address the question of the structural change of the Enzyme. Substrate 
+      complex with temperature. The population of the reactive Enzyme. Substrate 
+      conformers (near attack conformers or NACs) increases by approximately 1100-fold in 
+      going from room temperature (E.S298) to high temperature (E.S385). This increased 
+      population of NAC conformers in the Michaelis complex correlates well with the 
+      increase in rate in going from 298 to 385 K. The positioning of the two active site 
+      residues Lys53 and Lys110 controls binding of the substrate in the favorable 
+      orientation for general acid-catalyzed intramolecular ring formation reaction. It 
+      can be concluded that the NAC formation allowing general acid catalysis has much to 
+      do with the temperature dependence of the free energy of reaction.
+FAU - Mazumder-Shivakumar, Devleena
+AU  - Mazumder-Shivakumar D
+AD  - Department of Chemistry and Biochemistry, University of California, Santa Barbara, 
+      Santa Barbara, California 93106, USA.
+FAU - Kahn, Kalju
+AU  - Kahn K
+FAU - Bruice, Thomas C
+AU  - Bruice TC
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, U.S. Gov't, Non-P.H.S.
+PL  - United States
+TA  - J Am Chem Soc
+JT  - Journal of the American Chemical Society
+JID - 7503056
+RN  - EC 4.1.1.48 (Indole-3-Glycerol-Phosphate Synthase)
+SB  - IM
+MH  - Archaea/enzymology
+MH  - Binding Sites
+MH  - Computational Biology
+MH  - Indole-3-Glycerol-Phosphate Synthase/*chemistry
+MH  - Kinetics
+MH  - Protein Conformation
+MH  - Temperature
+EDAT- 2004/05/13 05:00
+MHDA- 2004/08/20 05:00
+CRDT- 2004/05/13 05:00
+PHST- 2004/05/13 05:00 [pubmed]
+PHST- 2004/08/20 05:00 [medline]
+PHST- 2004/05/13 05:00 [entrez]
+AID - 10.1021/ja049512u [doi]
+PST - ppublish
+SO  - J Am Chem Soc. 2004 May 19;126(19):5936-7. doi: 10.1021/ja049512u.
+
+PMID- 11745145
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20020206
+LR  - 20191210
+IS  - 0006-3592 (Print)
+IS  - 0006-3592 (Linking)
+VI  - 75
+IP  - 6
+DP  - 2001 Dec 20
+TI  - Lipase-catalyzed synthesis of geranyl acetate in n-hexane with membrane-mediated 
+      water removal.
+PG  - 676-81
+AB  - The esterification of geraniol with acetic acid in n-hexane was investigated. A 
+      commercial lipase preparation from Candida antarctica was used as catalyst. The 
+      equilibrium conversion (no water removal) was found to be 94% for the reaction of 
+      0.1 M alcohol and 0.1 M acid in n-hexane at 30 degrees C. This was shown by both 
+      hydrolysis and esterification reactions. The activation energy of reaction over the 
+      temperature range 10 degrees to 50 degrees C was found to be 16 kJ/mol. The standard 
+      heat of reaction was -28 kJ/mol. Membrane pervaporation using a cellulose 
+      acetate/ceramic composite membrane was then employed for selective removal of water 
+      from the reaction mixture. The membrane was highly effective at removing water while 
+      retaining all reaction components. Negligible transport of the solvent n-hexane was 
+      observed. Water removal by pervaporation increased the reaction rate by 
+      approximately 150% and increased steady-state conversion to 100%.
+CI  - Copyright 2001 John Wiley & Sons, Inc.
+FAU - Bartling, K
+AU  - Bartling K
+AD  - Institute of Paper Science and Technology, 500 10th Street NW, Atlanta, Georgia 
+      30318, USA.
+FAU - Thompson, J U
+AU  - Thompson JU
+FAU - Pfromm, P H
+AU  - Pfromm PH
+FAU - Czermak, P
+AU  - Czermak P
+FAU - Rezac, M E
+AU  - Rezac ME
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+PL  - United States
+TA  - Biotechnol Bioeng
+JT  - Biotechnology and bioengineering
+JID - 7502021
+RN  - 0 (Acetates)
+RN  - 0 (Acyclic Monoterpenes)
+RN  - 0 (Hexanes)
+RN  - 0 (Membranes, Artificial)
+RN  - 0 (Terpenes)
+RN  - 059QF0KO0R (Water)
+RN  - 3W81YG7P9R (geranyl acetate)
+RN  - EC 3.1.1.3 (Lipase)
+SB  - IM
+MH  - Acetates/*chemical synthesis
+MH  - Acyclic Monoterpenes
+MH  - Catalysis
+MH  - Hexanes/*chemistry
+MH  - Lipase/*chemistry
+MH  - *Membranes, Artificial
+MH  - Terpenes/*chemical synthesis
+MH  - Thermodynamics
+MH  - *Water
+EDAT- 2001/12/18 10:00
+MHDA- 2002/02/07 10:01
+CRDT- 2001/12/18 10:00
+PHST- 2001/12/18 10:00 [pubmed]
+PHST- 2002/02/07 10:01 [medline]
+PHST- 2001/12/18 10:00 [entrez]
+AID - 10.1002/bit.1193 [pii]
+AID - 10.1002/bit.1193 [doi]
+PST - ppublish
+SO  - Biotechnol Bioeng. 2001 Dec 20;75(6):676-81. doi: 10.1002/bit.1193.
+
+PMID- 11035249
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20010202
+LR  - 20190826
+IS  - 0891-5849 (Print)
+IS  - 0891-5849 (Linking)
+VI  - 29
+IP  - 3-4
+DP  - 2000 Aug
+TI  - Mitochondrial energy metabolism is regulated via nuclear-coded subunits of 
+      cytochrome c oxidase.
+PG  - 211-21
+AB  - A new mechanism on regulation of mitochondrial energy metabolism is proposed on the 
+      basis of reversible control of respiration by the intramitochondrial ATP/ADP ratio 
+      and slip of proton pumping (decreased H+/e- stoichiometry) in cytochrome c oxidase 
+      (COX) at high proton motive force delta p. cAMP-dependent phosphorylation of COX 
+      switches on and Ca2+-dependent dephosphorylation switches off the allosteric 
+      ATP-inhibition of COX (nucleotides bind to subunit IV). Control of respiration via 
+      phosphorylated COX by the ATP/ADP ratio keeps delta p (mainly delta psi(m)) low. 
+      Hormone induced Ca2+-dependent dephosphorylation results in loss of ATP-inhibition, 
+      increase of respiration and delta p with consequent slip in proton pumping. Slip in 
+      COX increases the free energy of reaction, resulting in increased rates of 
+      respiration, thermogenesis and ATP-synthesis. Increased delta psi(m) stimulates 
+      production of reactive oxygen species (ROS), mutations of mitochondrial DNA and 
+      accelerates aging. Slip of proton pumping without dephosphorylation and increase of 
+      delta p is found permanently in the liver-type isozyme of COX (subunit VIaL) and at 
+      high intramitochondrial ATP/ADP ratios in the heart-type isozyme (subunit VIaH). 
+      High substrate pressure (sigmoidal v/s kinetics), palmitate and 3,5-diiodothyronine 
+      (binding to subunit Va) increase also delta p, ROS production and slip but without 
+      dephosphorylation of COX.
+FAU - Kadenbach, B
+AU  - Kadenbach B
+AD  - Fachbereich Chemie, Philipps-Universität, Marburg, Germany. 
+      Kadenbach@chemie.uni-marburg.de
+FAU - Hüttemann, M
+AU  - Hüttemann M
+FAU - Arnold, S
+AU  - Arnold S
+FAU - Lee, I
+AU  - Lee I
+FAU - Bender, E
+AU  - Bender E
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+PT  - Review
+PL  - United States
+TA  - Free Radic Biol Med
+JT  - Free radical biology & medicine
+JID - 8709159
+RN  - 0 (Protein Subunits)
+RN  - EC 1.9.3.1 (Electron Transport Complex IV)
+SB  - IM
+MH  - Animals
+MH  - Cell Nucleus/*genetics
+MH  - Cell Respiration
+MH  - Cellular Senescence
+MH  - Electron Transport Complex IV/chemistry/*genetics/*metabolism
+MH  - *Energy Metabolism
+MH  - Humans
+MH  - Mitochondria/enzymology/*metabolism
+MH  - Oxidative Stress
+MH  - Phosphorylation
+MH  - Protein Conformation
+MH  - Protein Subunits
+RF  - 116
+EDAT- 2000/10/18 11:00
+MHDA- 2001/03/03 10:01
+CRDT- 2000/10/18 11:00
+PHST- 2000/10/18 11:00 [pubmed]
+PHST- 2001/03/03 10:01 [medline]
+PHST- 2000/10/18 11:00 [entrez]
+AID - S0891-5849(00)00305-1 [pii]
+AID - 10.1016/s0891-5849(00)00305-1 [doi]
+PST - ppublish
+SO  - Free Radic Biol Med. 2000 Aug;29(3-4):211-21. doi: 10.1016/s0891-5849(00)00305-1.
+
+PMID- 10812026
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20000630
+LR  - 20190610
+IS  - 0006-3002 (Print)
+IS  - 0006-3002 (Linking)
+VI  - 1458
+IP  - 1
+DP  - 2000 May 12
+TI  - Marcus rate theory applied to enzymatic proton transfer.
+PG  - 88-103
+AB  - The hydration of CO(2) and the dehydration of HCO(3)(-) catalyzed by the carbonic 
+      anhydrases is accompanied by the transfer of protons between solution and the 
+      zinc-bound water molecule in the active site. This transfer is facilitated by amino 
+      acid residues of the enzyme which act as intramolecular proton shuttles; variants of 
+      carbonic anhydrase lacking such shuttle residues are enhanced or rescued in 
+      catalysis by intermolecular proton transfer from donors such as imidazole in 
+      solution. The resulting rate constants for proton transfer when compared with the 
+      values of the pK(a) of the donor and acceptor give Bronsted plots of high curvature. 
+      These data are described by Marcus theory which shows an intrinsic barrier for 
+      proton transfer from 1 to 2 kcal/mol and work terms or thermodynamic contributions 
+      to the free energy of reaction from 4 to10 kcal/mol. The interpretation of these 
+      Marcus parameters is discussed in terms of the well-studied pathway of the catalysis 
+      and structure of the enzymes.
+FAU - Silverman, D N
+AU  - Silverman DN
+AD  - Department of Pharmacology, University of Florida College of Medicine, Gainesville, 
+      FL 32610-0267, USA. silrmn@nervm.nerdc.ufl.edu
+LA  - eng
+PT  - Journal Article
+PT  - Review
+PL  - Netherlands
+TA  - Biochim Biophys Acta
+JT  - Biochimica et biophysica acta
+JID - 0217513
+RN  - 0 (Enzymes)
+RN  - 0 (Isoenzymes)
+RN  - 0 (Protons)
+RN  - 059QF0KO0R (Water)
+RN  - EC 4.2.1.1 (Carbonic Anhydrases)
+SB  - IM
+MH  - Animals
+MH  - Binding Sites
+MH  - Carbonic Anhydrases/chemistry
+MH  - Enzymes/*chemistry
+MH  - Humans
+MH  - Isoenzymes/chemistry
+MH  - Kinetics
+MH  - Models, Theoretical
+MH  - Molecular Structure
+MH  - Proton-Motive Force
+MH  - *Protons
+MH  - Thermodynamics
+MH  - Water/chemistry
+RF  - 88
+EDAT- 2000/05/17 09:00
+MHDA- 2000/07/08 11:00
+CRDT- 2000/05/17 09:00
+PHST- 2000/05/17 09:00 [pubmed]
+PHST- 2000/07/08 11:00 [medline]
+PHST- 2000/05/17 09:00 [entrez]
+AID - S0005-2728(00)00061-X [pii]
+AID - 10.1016/s0005-2728(00)00061-x [doi]
+PST - ppublish
+SO  - Biochim Biophys Acta. 2000 May 12;1458(1):88-103. doi: 
+      10.1016/s0005-2728(00)00061-x.
+
+PMID- 9635771
+OWN - NLM
+STAT- MEDLINE
+DCOM- 19980824
+LR  - 20181113
+IS  - 0006-3495 (Print)
+IS  - 1542-0086 (Electronic)
+IS  - 0006-3495 (Linking)
+VI  - 74
+IP  - 6
+DP  - 1998 Jun
+TI  - Properties of intramolecular proton transfer in carbonic anhydrase III.
+PG  - 3182-9
+AB  - We investigated the efficiency of glutamic acid 64 and aspartic acid 64 as proton 
+      donors to the zinc-bound hydroxide in a series of site-specific mutants of human 
+      carbonic anhydrase III (HCA III). Rate constants for this intramolecular proton 
+      transfer, a step in the catalyzed dehydration of bicarbonate, were determined from 
+      the proton-transfer-dependent rates of release of H2 18O from the enzyme measured by 
+      mass spectrometry. The free energy plots representing these rate constants could be 
+      fit by the Marcus rate theory, resulting in an intrinsic barrier for the proton 
+      transfer of deltaG0++ = 2.2 +/- 0.5 kcal/mol, and a work function or thermodynamic 
+      contribution to the free energy of reaction wr = 10.8 +/- 0.1 kcal/mol. These values 
+      are very similar in magnitude to the Marcus parameters describing intramolecular 
+      proton transfer from His64 and His67 to the zinc-bound hydroxide in mutants of HCA 
+      III. That result and the equivalent efficiency of Glu64 and Asp64 as proton donors 
+      in the catalysis by CA III demonstrate a lack of specificity in proton transfer from 
+      these sites, which is indirect evidence of a number of proton conduction pathways 
+      through different structures of intervening water chains. The dominance of the 
+      thermodynamic contribution or work function for all of these proton transfers is 
+      consistent with the view that formation and breaking of hydrogen bonds in such water 
+      chains is a limiting factor for proton translocation.
+FAU - Tu, C
+AU  - Tu C
+AD  - Department of Pharmacology and Therapeutics, University of Florida, College of 
+      Medicine, Gainesville 32610-0267, USA.
+FAU - Qian, M
+AU  - Qian M
+FAU - Earnhardt, J N
+AU  - Earnhardt JN
+FAU - Laipis, P J
+AU  - Laipis PJ
+FAU - Silverman, D N
+AU  - Silverman DN
+LA  - eng
+GR  - GM25154/GM/NIGMS NIH HHS/United States
+PT  - Journal Article
+PT  - Research Support, U.S. Gov't, P.H.S.
+TA  - Biophys J
+JT  - Biophysical journal
+JID - 0370626
+RN  - 0 (Oxygen Isotopes)
+RN  - 0 (Recombinant Proteins)
+RN  - 30KYC7MIAI (Aspartic Acid)
+RN  - 3KX376GY7L (Glutamic Acid)
+RN  - EC 4.2.1.1 (Carbonic Anhydrases)
+SB  - IM
+MH  - Amino Acid Substitution
+MH  - *Aspartic Acid
+MH  - Calorimetry
+MH  - Carbonic Anhydrases/*chemistry/*metabolism
+MH  - *Glutamic Acid
+MH  - Humans
+MH  - Hydrogen-Ion Concentration
+MH  - Kinetics
+MH  - Mutagenesis, Site-Directed
+MH  - Oxygen Isotopes
+MH  - Point Mutation
+MH  - Recombinant Proteins/chemistry/metabolism
+MH  - Thermodynamics
+PMC - PMC1299658
+EDAT- 1998/06/23 00:00
+MHDA- 1998/06/23 00:01
+CRDT- 1998/06/23 00:00
+PHST- 1998/06/23 00:00 [pubmed]
+PHST- 1998/06/23 00:01 [medline]
+PHST- 1998/06/23 00:00 [entrez]
+AID - S0006-3495(98)78024-5 [pii]
+AID - 10.1016/S0006-3495(98)78024-5 [doi]
+PST - ppublish
+SO  - Biophys J. 1998 Jun;74(6):3182-9. doi: 10.1016/S0006-3495(98)78024-5.
+
+PMID- 8664279
+OWN - NLM
+STAT- MEDLINE
+DCOM- 19960806
+LR  - 20031114
+IS  - 0006-2960 (Print)
+IS  - 0006-2960 (Linking)
+VI  - 35
+IP  - 15
+DP  - 1996 Apr 16
+TI  - Modulated growth of Saccharomyces cerevisiae by altering the driving force of the 
+      reactions of cytochrome c: Marcus' theory in vitro and in vivo.
+PG  - 4878-85
+AB  - According to Marcus' theory, rates of electron transfer reactions depend 
+      parabolically on the free energy of reaction. Amino acid replacements in the 
+      electron transport protein cytochrome c produced a series of proteins which changed 
+      the free energy of reaction for cytochrome c in oxidative phosphorylation. This 
+      study shows that Marcus' theory of electron transfer can be applied to the reactions 
+      of redox-altered cytochromes c with cytochrome c1 both in vitro and in vivo. In 
+      vitro, isolation of physiologically relevant partners of cytochrome c suggests that 
+      a change in free energy of reaction of cytochrome c changes the rate of electron 
+      transfer with cytochrome bc1 complex as would be predicted by Marcus' theory of 
+      electron transfer. Furthermore, the reactivity pattern observed in vitro is 
+      paralleled in in vivo studies. In vivo the rates of growth of Saccharomyces 
+      cerevisiae, in which these alternatives have been incorporated, also are consistent 
+      with the change in free energy of the reactions of cytochrome c with cytochrome bc1 
+      complex. This study suggests that Marcus' theory of electron transport can predict 
+      rates not only in vitro, in isolated protein-protein systems, but also in vivo, 
+      where the relative growth rates of yeast may be predicted from the in vitro results.
+FAU - Komar-Panicucci, S
+AU  - Komar-Panicucci S
+AD  - Department of Chemistry, Princeton University, New Jersey 08544-1009, USA.
+FAU - Sherman, F
+AU  - Sherman F
+FAU - McLendon, G
+AU  - McLendon G
+LA  - eng
+PT  - Journal Article
+PL  - United States
+TA  - Biochemistry
+JT  - Biochemistry
+JID - 0370623
+RN  - 0 (Cytochrome c Group)
+SB  - IM
+MH  - Cytochrome c Group/isolation & purification/*metabolism
+MH  - Electron Transport
+MH  - Kinetics
+MH  - Models, Biological
+MH  - Oxidation-Reduction
+MH  - Saccharomyces cerevisiae/enzymology/*growth & development
+EDAT- 1996/04/16 00:00
+MHDA- 1996/04/16 00:01
+CRDT- 1996/04/16 00:00
+PHST- 1996/04/16 00:00 [pubmed]
+PHST- 1996/04/16 00:01 [medline]
+PHST- 1996/04/16 00:00 [entrez]
+AID - bi952771z [pii]
+AID - 10.1021/bi952771z [doi]
+PST - ppublish
+SO  - Biochemistry. 1996 Apr 16;35(15):4878-85. doi: 10.1021/bi952771z.
