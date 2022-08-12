@@ -30,4 +30,3 @@ jobs:
         default_author: github_actions
         message: "GitHub traffic"
         add: "./traffic/*"
-        ref: "traffic"  # commits to branch "traffic" 
