@@ -2,10 +2,6 @@ import pandas
 
 df = pandas.read_csv("openTECR recuration - actual data.csv")
 
-## extract added values
-print(f"You will need to care for these {df.id.isna().sum()} recently added rows:")
-print(df[df.id.isna()])
-
 ## containing NaNs
 print("containing NaNs:")
 df_isna = df.isna()
@@ -55,6 +51,11 @@ if True:
     for which, g in df.groupby(["part"]):
         assert sorted(g["page"].unique()) == list(range(g["page"].min(), g["page"].max() + 1))
 
+## extract added values
+# print(f"You will need to care for these {df.id.isna().sum()} recently added rows:")
+# print(df[df.id.isna()])
+
+
 ## read second df
 ## -- get it manually from https://zenodo.org/record/5495826 !
 noor = pandas.read_csv("TECRDB.csv")
@@ -97,13 +98,18 @@ noor = noor.drop(["EC","reference"], axis="columns")
 df   = df.drop(  ["description"],    axis="columns")
 
 ## drop rows without id
-df = df[~df.id.isna()]
+#df = df[~df.id.isna()]
 
 ## merge
-new = pandas.merge(df, noor, how="inner", on="id", validate="1:1")
+new = pandas.merge(df, noor, how="left", on="id")#, validate="1:1")
 
-## keep only one entry per table code, remove now-meaningless columns
-new = new[~new.duplicated("table_code")]
+## keep only one entry per table code, remove now-meaningless columns, but keep id=NaN rows
+#new1 = new[~new.duplicated("table_code")]
+#new1 = new1.dropna(subset=["table_code"])
+#new2 = new[new.table_code.isna()]
+#new2 = new2[~new2.duplicated(["part","page","col l/r","table from top"])]
+#new = pandas.concat([new1,new2])
+new = new[~new.duplicated(["part","page","col l/r","table from top"])]
 new = new.drop(["id","url"], axis="columns")
 
 ## write out
