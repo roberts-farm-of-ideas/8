@@ -116,8 +116,8 @@ new = new.drop(["id","url"], axis="columns")
 new["comment"] = ""
 new["buffer"] = ""
 (new[[
-    "table_code",
     "part","page","col l/r","table from top",
+    "table_code",
     #"enzyme_name",
     #"EC",
     "description",
