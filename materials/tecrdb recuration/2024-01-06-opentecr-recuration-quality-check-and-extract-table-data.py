@@ -35,22 +35,22 @@ if True:
     ## tables intact in themselves
     for which, g in df.groupby(["part","page","col l/r","table from top"]):
         #print((which,g))
-        assert len(g.reference.unique())==1
-        assert len(g.EC.unique()) == 1
-        assert len(g.description.unique())==1
-        assert sorted(g["entry nr"].values)==list(range(1,g["entry nr"].max()+1))
+        assert len(g.reference.unique())==1, (which, g.to_string())
+        assert len(g.EC.unique()) == 1, (which, g.to_string())
+        assert len(g.description.unique())==1, (which, g.to_string())
+        assert sorted(g["entry nr"].values)==list(range(1,g["entry nr"].max()+1)), (which, g.to_string())
 
     ## table counts consistently continuous
     for which, g in df.groupby(["part", "page", "col l/r"]):
-        assert sorted(g["table from top"].unique()) == list(range(1, g["table from top"].max() + 1))
+        assert sorted(g["table from top"].unique()) == list(range(1, g["table from top"].max() + 1)), (which, g.to_string())
 
     ## column values either 1 or 2
     for which, g in df.groupby(["part", "page"]):
-        assert all([i in [1,2] for i in g["col l/r"].values])
+        assert all([i in [1,2] for i in g["col l/r"].values]), (which, g.to_string())
 
     ## page numbers consistently continuous
     for which, g in df.groupby("part"):
-        assert sorted(g["page"].unique()) == list(range(g["page"].min(), g["page"].max() + 1))
+        assert sorted(g["page"].unique()) == list(range(g["page"].min(), g["page"].max() + 1)), (which, g.to_string())
 
 ## extract added values
 # print(f"You will need to care for these {df.id.isna().sum()} recently added rows:")
@@ -61,10 +61,12 @@ print("The online spreadsheet data looks consistent.")
 
 
 ## consistency check between online spreadsheet and original Noor data
-## -- non-curated values should not have been changed by anyone!
 noor = pandas.read_csv("TECRDB.csv")
 online = pandas.read_csv("openTECR recuration - actual data.csv")
 online = online.replace({"col l/r": {"l":1,"r":2}})
+## check that all ids are still there
+assert set(noor.id) - set(online.id) == set(), f"The following IDs were deleted online: {set(noor.id)-set(online.id)}"
+## non-curated values should not have been changed by anyone!
 leftjoined = pandas.merge(noor, online.dropna(subset="id"), on="id", how="left", validate="1:1")
 SHOULD_BE_THE_SAME = [
     "reference",
@@ -80,10 +82,10 @@ SHOULD_BE_THE_SAME = [
 for s in SHOULD_BE_THE_SAME:
     entries_where_both_are_nans = leftjoined[ leftjoined[f"{s}_x"].isna() & leftjoined[f"{s}_y"].isna() ]
     if len(entries_where_both_are_nans) == 0:
-        assert (leftjoined[f"{s}_x"] == leftjoined[f"{s}_y"]).all(), s #print(leftjoined[~(leftjoined[f"{s}_x"] == leftjoined[f"{s}_y"])])
+        assert (leftjoined[f"{s}_x"] == leftjoined[f"{s}_y"]).all(), (s, leftjoined[~(leftjoined[f"{s}_x"] == leftjoined[f"{s}_y"])][["id",f"{s}_x",f"{s}_y"]].to_string())
     else:
         tmp = leftjoined[ ~ (leftjoined[f"{s}_x"].isna() & leftjoined[f"{s}_y"].isna()) ]
-        assert (tmp[f"{s}_x"] == tmp[f"{s}_y"]).all(), s  # print(leftjoined[~(leftjoined[f"{s}_x"] == leftjoined[f"{s}_y"])])
+        assert (tmp[f"{s}_x"] == tmp[f"{s}_y"]).all(), (s, tmp[~(tmp[f"{s}_x"] == tmp[f"{s}_y"])][["id",f"{s}_x",f"{s}_y"]].to_string())
 
 ## did someone add a new row without id, where they should have corrected a row with id?
 merged = pandas.merge(online, noor, on=[    "reference",
@@ -131,13 +133,13 @@ if True:
     ## tables intact in themselves
     for which, g in noor.groupby("table_code"):
         #print((which,g))
-        assert len(g.reference.unique())==1
-        assert len(g.method.unique())==1
-        assert len(g["eval"].unique()) == 1
-        assert len(g.EC.unique()) == 1
-        assert len(g.enzyme_name.unique())==1
-        assert len(g.reaction.unique()) == 1
-        assert len(g.description.unique()) == 1
+        assert len(g.reference.unique())==1, (which, g.to_string())
+        assert len(g.method.unique())==1, (which, g.to_string())
+        assert len(g["eval"].unique()) == 1, (which, g.to_string())
+        assert len(g.EC.unique()) == 1, (which, g.to_string())
+        assert len(g.enzyme_name.unique())==1, (which, g.to_string())
+        assert len(g.reaction.unique()) == 1, (which, g.to_string())
+        assert len(g.description.unique()) == 1, (which, g.to_string())
 
 ## drop now-unnecessary columns
 noor = noor.drop(["EC","reference"], axis="columns")
