@@ -32,6 +32,9 @@ df[["part","page","col l/r","table from top", "entry nr"]] = df[["part","page","
 
 ## quality check new data
 if True:
+    ## id is unique
+    assert len(df.dropna(subset=["id"]).id.unique()) == len(df.dropna(subset=["id"])), df.dropna(subset=["id"])[df.dropna(subset=["id"]).id.duplicated()].to_string()
+
     ## tables intact in themselves
     for which, g in df.groupby(["part","page","col l/r","table from top"]):
         #print((which,g))
@@ -42,6 +45,12 @@ if True:
 
     ## table counts consistently continuous
     for which, g in df.groupby(["part", "page", "col l/r"]):
+        if which == (2, 558, 2):
+            ## skip: this column contains a table which was mentioned before and is a full duplicate
+            continue
+        if which == (2, 560, 2):
+            ## skip: this column contains a table which was mentioned before and is a full duplicate
+            continue
         assert sorted(g["table from top"].unique()) == list(range(1, g["table from top"].max() + 1)), (which, g.to_string())
 
     ## column values either 1 or 2
