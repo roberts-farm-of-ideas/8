@@ -91,10 +91,10 @@ SHOULD_BE_THE_SAME = [
 for s in SHOULD_BE_THE_SAME:
     entries_where_both_are_nans = leftjoined[ leftjoined[f"{s}_x"].isna() & leftjoined[f"{s}_y"].isna() ]
     if len(entries_where_both_are_nans) == 0:
-        assert (leftjoined[f"{s}_x"] == leftjoined[f"{s}_y"]).all(), (s, leftjoined[~(leftjoined[f"{s}_x"] == leftjoined[f"{s}_y"])][["id",f"{s}_x",f"{s}_y"]].to_string())
+        assert (leftjoined[f"{s}_x"] == leftjoined[f"{s}_y"]).all(), (s, print(leftjoined[~(leftjoined[f"{s}_x"] == leftjoined[f"{s}_y"])][["id",f"{s}_x",f"{s}_y"]].to_string()))
     else:
         tmp = leftjoined[ ~ (leftjoined[f"{s}_x"].isna() & leftjoined[f"{s}_y"].isna()) ]
-        assert (tmp[f"{s}_x"] == tmp[f"{s}_y"]).all(), (s, tmp[~(tmp[f"{s}_x"] == tmp[f"{s}_y"])][["id",f"{s}_x",f"{s}_y"]].to_string())
+        assert (tmp[f"{s}_x"] == tmp[f"{s}_y"]).all(), (s, print(tmp[~(tmp[f"{s}_x"] == tmp[f"{s}_y"])][["id",f"{s}_x",f"{s}_y"]].to_string()))
 
 ## did someone add a new row without id, where they should have corrected a row with id?
 merged = pandas.merge(online, noor, on=[    "reference",
@@ -110,6 +110,13 @@ merged = merged[merged["id_x"] != merged["id_y"]]
 potential_errors = merged[merged["id_x"].isna() | merged["id_y"].isna()]
 MANUALLY_EXCLUDED = [
 "https://w3id.org/related-to/doi.org/10.5281/zenodo.3978439/files/TECRDB.csv#entry4356",
+"https://w3id.org/related-to/doi.org/10.5281/zenodo.3978439/files/TECRDB.csv#entry1714",
+"https://w3id.org/related-to/doi.org/10.5281/zenodo.3978439/files/TECRDB.csv#entry1715",
+"https://w3id.org/related-to/doi.org/10.5281/zenodo.3978439/files/TECRDB.csv#entry1716",
+"https://w3id.org/related-to/doi.org/10.5281/zenodo.3978439/files/TECRDB.csv#entry1718",
+"https://w3id.org/related-to/doi.org/10.5281/zenodo.3978439/files/TECRDB.csv#entry1717",
+"https://w3id.org/related-to/doi.org/10.5281/zenodo.3978439/files/TECRDB.csv#entry2140",
+"https://w3id.org/related-to/doi.org/10.5281/zenodo.3978439/files/TECRDB.csv#entry2149",
 ]
 potential_errors = potential_errors[ ~potential_errors.id_y.isin(MANUALLY_EXCLUDED) ]
 if len(potential_errors) > 0:
@@ -151,8 +158,8 @@ if True:
         assert len(g.description.unique()) == 1, (which, g.to_string())
 
 ## drop now-unnecessary columns
-noor = noor.drop(["EC","reference"], axis="columns")
-df   = df.drop(  ["description"],    axis="columns")
+noor = noor.drop(["EC","reference", "description"], axis="columns")
+#df   = df.drop(  ["description"],    axis="columns")
 
 ## drop rows without id
 #df = df[~df.id.isna()]
@@ -187,5 +194,22 @@ new["buffer"] = ""
  .sort_values(["part","page","col l/r","table from top"])
  .to_csv("2024-01-06-opentecr-recuration-extract-data.py.out.table-list.csv", index=False)
  )
+
+(new[new.table_code.isna()][[
+    "part","page","col l/r","table from top",
+    "table_code",
+    #"enzyme_name",
+    #"EC",
+    "description",
+    "reference",
+    #"method",
+    #"buffer",
+    #"eval",
+    "comment"
+    ]]
+ .sort_values(["part","page","col l/r","table from top"])
+ .to_csv("2024-01-06-opentecr-recuration.missing_table_codes.csv", index=False)
+ )
+
 
 print("I could merge the online spreadsheet and the Noor data. I have written a file containing the table metadata to your disk.")
