@@ -141,6 +141,10 @@ if len(potential_errors) > 0:
 print("The online spreadsheet data and its original data source are still in sync.")
 
 
+
+## annotate online spreadsheet with table_codes
+#
+#
 ## read second df
 ## -- get it manually from https://zenodo.org/record/5495826 !
 noor = pandas.read_csv("TECRDB.csv")
@@ -154,10 +158,6 @@ noor = noor.drop(['K', 'K_prime', 'temperature',
 
 ## extract table codes
 noor["table_code"] = noor.url.str.split("&T1=").str[-1]
-
-## remove known duplicates
-#REMOVE = []
-#noor = noor[ ~noor.id.isin(REMOVE) ]
 
 ## quality check
 if True:
@@ -176,57 +176,69 @@ if True:
 noor = noor.drop(["EC","reference", "description"], axis="columns")
 #df   = df.drop(  ["description"],    axis="columns")
 
-## drop rows without id
-#df = df[~df.id.isna()]
-
 ## merge
-new = pandas.merge(df, noor, how="left", on="id")
+tmp = pandas.merge(df, noor, how="left", on="id")
 
+## add manually extracted table codes
+manual_table_codes = pandas.read_csv("openTECR recuration - table codes.csv")
+manual_table_codes = manual_table_codes.drop(["reference", "description"], axis="columns")
+tmp_with_table_codes = tmp[~tmp.table_code.isna()]
+tmp_without_table_codes = tmp[tmp.table_code.isna()]
+tmp_without_table_codes = tmp_without_table_codes.drop("table_code", axis="columns")
+tmp_without_table_codes_try_to_add_manual_ones = pandas.merge(tmp_without_table_codes, manual_table_codes, how="left", on=["part","page","col l/r","table from top"])
+
+new = pandas.concat([tmp_with_table_codes, tmp_without_table_codes_try_to_add_manual_ones], ignore_index=True)
 ## keep only one entry per table code, remove now-meaningless columns, but keep id=NaN rows
-#new1 = new[~new.duplicated("table_code")]
-#new1 = new1.dropna(subset=["table_code"])
-#new2 = new[new.table_code.isna()]
-#new2 = new2[~new2.duplicated(["part","page","col l/r","table from top"])]
-#new = pandas.concat([new1,new2])
 new = new[~new.duplicated(["part","page","col l/r","table from top"])]
 new = new.drop(["id","url"], axis="columns")
-
-## write out
 new["comment"] = ""
-new["buffer"] = ""
 
-
-(new[[
+## export tables which need to be added to the "table codes" tab
+selector = []
+for i,s in new.iterrows():
+    if pandas.isna(s.table_code):
+        if len(manual_table_codes[(manual_table_codes.part == s.part) &
+                            (manual_table_codes.page == s.page) &
+                            (manual_table_codes["col l/r"] == s["col l/r"]) &
+                            (manual_table_codes["table from top"] == s["table from top"])
+           ]) == 0:
+            selector.append(i)
+export = new.loc[selector]
+(export[[
     "part","page","col l/r","table from top",
     "table_code",
-    #"enzyme_name",
-    #"EC",
     "description",
     "reference",
-    #"method",
-    #"buffer",
-    #"eval",
-    "comment"
-    ]]
- .sort_values(["part","page","col l/r","table from top"])
- .to_csv("2024-01-06-opentecr-recuration-extract-data.py.out.table-list.csv", index=False)
- )
-
-(new[new.table_code.isna()][[
-    "part","page","col l/r","table from top",
-    "table_code",
-    #"enzyme_name",
-    #"EC",
-    "description",
-    "reference",
-    #"method",
-    #"buffer",
-    #"eval",
-    "comment"
+    "curator",
     ]]
  .sort_values(["part","page","col l/r","table from top"])
  .to_csv("2024-01-06-opentecr-recuration.missing_table_codes.csv", index=False)
  )
 
 
-print("I could merge the online spreadsheet and the Noor data. I have written a file containing the table metadata to your disk.")
+## export tables which need to have their comment extracted
+selector = []
+tables_with_comments = pandas.read_csv("openTECR recuration - table metadata.csv")
+for i, s in new.iterrows():
+    if len(tables_with_comments[(tables_with_comments.part == s.part) &
+                               (tables_with_comments.page == s.page) &
+                               (tables_with_comments["col l/r"] == s["col l/r"]) &
+                               (tables_with_comments["table from top"] == s["table from top"])
+          ]) == 0:
+       selector.append(i)
+tables_without_comments = new.loc[selector]
+tables_without_comments["manually spellchecked"] = ""
+tables_without_comments["comment"] = ""
+
+(tables_without_comments[[
+    "part","page","col l/r","table from top",
+    "reference",
+    "manually spellchecked",
+    "comment"
+    ]]
+ .sort_values(["part","page","col l/r","table from top"])
+ .to_csv("2024-01-06-opentecr-recuration.missing-table-comments.csv", index=False)
+ )
+
+
+print("I could merge the online spreadsheet and the Noor data. I have written file regarding the tables to your disk.")
