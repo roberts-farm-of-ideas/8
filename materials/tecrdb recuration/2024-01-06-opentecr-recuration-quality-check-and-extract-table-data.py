@@ -54,6 +54,7 @@ if True:
             (2, 558, 2),
             (2, 560, 2),
             (2, 566, 2),
+            (3, 1041, 1),
         ]
         if which in MANUALLY_EXCLUDED_COLUMNS:
             continue
@@ -181,12 +182,17 @@ tmp = pandas.merge(df, noor, how="left", on="id")
 
 ## add manually extracted table codes
 manual_table_codes = pandas.read_csv("openTECR recuration - table codes.csv")
+# QC
+if True:
+    assert sum(manual_table_codes.duplicated(["part", "page", "col l/r", "table from top"])) == 0, print(
+        manual_table_codes[manual_table_codes.duplicated(["part", "page", "col l/r", "table from top"])])
+# split into tables with table codes from Noor and those which needed to be annotated manually
 manual_table_codes = manual_table_codes.drop(["reference", "description"], axis="columns")
 tmp_with_table_codes = tmp[~tmp.table_code.isna()]
 tmp_without_table_codes = tmp[tmp.table_code.isna()]
 tmp_without_table_codes = tmp_without_table_codes.drop("table_code", axis="columns")
 tmp_without_table_codes_try_to_add_manual_ones = pandas.merge(tmp_without_table_codes, manual_table_codes, how="left", on=["part","page","col l/r","table from top"])
-
+# concat the two
 new = pandas.concat([tmp_with_table_codes, tmp_without_table_codes_try_to_add_manual_ones], ignore_index=True)
 ## keep only one entry per table code, remove now-meaningless columns, but keep id=NaN rows
 new = new[~new.duplicated(["part","page","col l/r","table from top"])]
@@ -219,6 +225,10 @@ export = new.loc[selector]
 ## export tables which need to have their comment extracted
 selector = []
 tables_with_comments = pandas.read_csv("openTECR recuration - table metadata.csv")
+## QC
+if True:
+    assert sum(tables_with_comments.duplicated(["part","page","col l/r","table from top"]))==0, print(tables_with_comments[tables_with_comments.duplicated(["part","page","col l/r","table from top"])])
+## extract only the tables which are not mentioned in the spreadsheet yet
 for i, s in new.iterrows():
     if len(tables_with_comments[(tables_with_comments.part == s.part) &
                                (tables_with_comments.page == s.page) &
