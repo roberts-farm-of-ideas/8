@@ -18,10 +18,28 @@ for row in df_isna.index:
         counter += 1
 print(f"A total of {counter} rows contained NaNs.")
 
-## duplicates and errors
+## QC
+if True:
+    ## duplicates and errors
+    test_df = df
+    MANUALLY_EXCLUDED_DUPLICATES = [
+        "54STA",
+        "71TAN/JOH",
+        "91HOR/UEH",
+    ]
+    test_df = test_df[~test_df.reference.isin(MANUALLY_EXCLUDED_DUPLICATES)]
+    assert sum(test_df[((test_df["entry nr"]=="duplicate") | (test_df["entry nr"]=="error"))].id.isna())==0, ("Duplicate or error found for an empty-ID row", test_df[(((test_df["entry nr"]=="duplicate") | (test_df["entry nr"]=="error"))) & test_df.id.isna()])
+
 #print("I am removing the following duplicates and errors:")
-#print(df[(df["entry nr"]=="duplicate") | (df["entry nr"]=="error")])
 df = df[~((df["entry nr"]=="duplicate") | (df["entry nr"]=="error"))]
+
+##QC
+if True:
+    ##check completeness of position annotation
+    na_counter = df[["part","page","col l/r","table from top", "entry nr"]].isna().sum(axis="columns")
+    assert len(df[~na_counter.isin([0,5])])==0, print(df[~na_counter.isin([0,5])][["id","reference","part","page","col l/r","table from top", "entry nr"]].to_string())
+
+    assert len(df[df.reference.str.contains(" ").fillna(False)])==0, print(df[df.reference.str.contains(" ").fillna(False)].to_string())
 
 ## drop NaNs -- these entries just haven't been worked on
 df = df.dropna(subset=["part","page","col l/r","table from top", "entry nr"])
