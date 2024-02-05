@@ -72,7 +72,10 @@ if True:
             (2, 558, 2),
             (2, 560, 2),
             (2, 566, 2),
+            (2, 584, 1),
+            (2, 590, 2),
             (3, 1041, 1),
+
         ]
         if which in MANUALLY_EXCLUDED_COLUMNS:
             continue
@@ -151,7 +154,7 @@ MANUALLY_EXCLUDED = [
     "https://w3id.org/related-to/doi.org/10.5281/zenodo.3978439/files/TECRDB.csv#entry3167",
     "https://w3id.org/related-to/doi.org/10.5281/zenodo.3978439/files/TECRDB.csv#entry3184",
     "https://w3id.org/related-to/doi.org/10.5281/zenodo.3978439/files/TECRDB.csv#entry707",
-    
+
 ]
 potential_errors = potential_errors[ ~potential_errors.id_y.isin(MANUALLY_EXCLUDED) ]
 if len(potential_errors) > 0:
