@@ -1,7 +1,13 @@
 import pandas
 
-#df = pandas.read_csv("openTECR recuration - actual data.csv")
-df = pandas.read_excel("openTECR recuration.ods", sheet_name="actual data")
+READ_CSV = False
+
+
+
+if READ_CSV:
+    df = pandas.read_csv("openTECR recuration - actual data.csv")
+else:
+    df = pandas.read_excel("openTECR recuration.ods", sheet_name="actual data")
 df = df.replace({"col l/r": {"l":1,"r":2}})
 
 ## containing NaNs
@@ -107,8 +113,10 @@ print("The online spreadsheet data looks consistent.")
 
 ## consistency check between online spreadsheet and original Noor data
 noor = pandas.read_csv("TECRDB.csv")
-#online = pandas.read_csv("openTECR recuration - actual data.csv")
-online = pandas.read_excel("openTECR recuration.ods", sheet_name="actual data")
+if READ_CSV:
+    online = pandas.read_csv("openTECR recuration - actual data.csv")
+else:
+    online = pandas.read_excel("openTECR recuration.ods", sheet_name="actual data")
 online = online.replace({"col l/r": {"l":1,"r":2}})
 ## check that all ids are still there
 assert set(noor.id) - set(online.id) == set(), f"The following IDs were deleted online: {set(noor.id)-set(online.id)}"
@@ -208,8 +216,10 @@ noor = noor.drop(["EC","reference", "description"], axis="columns")
 tmp = pandas.merge(df, noor, how="left", on="id")
 
 ## add manually extracted table codes
-#manual_table_codes = pandas.read_csv("openTECR recuration - table codes.csv")
-manual_table_codes = pandas.read_excel("openTECR recuration.ods", sheet_name="manually mapped table codes")
+if READ_CSV:
+    manual_table_codes = pandas.read_csv("openTECR recuration - table codes.csv")
+else:
+    manual_table_codes = pandas.read_excel("openTECR recuration.ods", sheet_name="manually mapped table codes")
 
 # QC
 if True:
@@ -253,8 +263,10 @@ export = new.loc[selector]
 
 ## export tables which need to have their comment extracted
 selector = []
-#tables_with_comments = pandas.read_csv("openTECR recuration - table metadata.csv")
-tables_with_comments = pandas.read_excel("openTECR recuration.ods", sheet_name="table metadata")
+if READ_CSV:
+    tables_with_comments = pandas.read_csv("openTECR recuration - table metadata.csv")
+else:
+    tables_with_comments = pandas.read_excel("openTECR recuration.ods", sheet_name="table comments")
 ## QC
 if True:
     assert sum(tables_with_comments.duplicated(["part","page","col l/r","table from top"]))==0, print(tables_with_comments[tables_with_comments.duplicated(["part","page","col l/r","table from top"])])
