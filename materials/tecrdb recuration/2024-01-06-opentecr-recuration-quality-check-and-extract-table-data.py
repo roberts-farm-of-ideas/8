@@ -1,6 +1,7 @@
 import pandas
 
-df = pandas.read_csv("openTECR recuration - actual data.csv")
+#df = pandas.read_csv("openTECR recuration - actual data.csv")
+df = pandas.read_excel("openTECR recuration.ods", sheet_name="actual data")
 df = df.replace({"col l/r": {"l":1,"r":2}})
 
 ## containing NaNs
@@ -26,6 +27,7 @@ if True:
         "54STA",
         "71TAN/JOH",
         "91HOR/UEH",
+        "76SCH/KRI",
     ]
     test_df = test_df[~test_df.reference.isin(MANUALLY_EXCLUDED_DUPLICATES)]
     assert sum(test_df[((test_df["entry nr"]=="duplicate") | (test_df["entry nr"]=="error"))].id.isna())==0, ("Duplicate or error found for an empty-ID row", test_df[(((test_df["entry nr"]=="duplicate") | (test_df["entry nr"]=="error"))) & test_df.id.isna()])
@@ -75,6 +77,7 @@ if True:
             (2, 584, 1),
             (2, 590, 2),
             (3, 1041, 1),
+            (3, 1076, 2),
 
         ]
         if which in MANUALLY_EXCLUDED_COLUMNS:
@@ -104,7 +107,8 @@ print("The online spreadsheet data looks consistent.")
 
 ## consistency check between online spreadsheet and original Noor data
 noor = pandas.read_csv("TECRDB.csv")
-online = pandas.read_csv("openTECR recuration - actual data.csv")
+#online = pandas.read_csv("openTECR recuration - actual data.csv")
+online = pandas.read_excel("openTECR recuration.ods", sheet_name="actual data")
 online = online.replace({"col l/r": {"l":1,"r":2}})
 ## check that all ids are still there
 assert set(noor.id) - set(online.id) == set(), f"The following IDs were deleted online: {set(noor.id)-set(online.id)}"
@@ -154,12 +158,13 @@ MANUALLY_EXCLUDED = [
     "https://w3id.org/related-to/doi.org/10.5281/zenodo.3978439/files/TECRDB.csv#entry3167",
     "https://w3id.org/related-to/doi.org/10.5281/zenodo.3978439/files/TECRDB.csv#entry3184",
     "https://w3id.org/related-to/doi.org/10.5281/zenodo.3978439/files/TECRDB.csv#entry707",
-
+    "https://w3id.org/related-to/doi.org/10.5281/zenodo.3978439/files/TECRDB.csv#entry4246",
+    "https://w3id.org/related-to/doi.org/10.5281/zenodo.3978439/files/TECRDB.csv#entry392",
 ]
 potential_errors = potential_errors[ ~potential_errors.id_y.isin(MANUALLY_EXCLUDED) ]
 if len(potential_errors) > 0:
     print("The following entries might have been added as a new row without id, where they should have corrected a row with id:")
-    print(potential_errors)
+    print(potential_errors.to_string())
 
 print("The online spreadsheet data and its original data source are still in sync.")
 
@@ -203,7 +208,9 @@ noor = noor.drop(["EC","reference", "description"], axis="columns")
 tmp = pandas.merge(df, noor, how="left", on="id")
 
 ## add manually extracted table codes
-manual_table_codes = pandas.read_csv("openTECR recuration - table codes.csv")
+#manual_table_codes = pandas.read_csv("openTECR recuration - table codes.csv")
+manual_table_codes = pandas.read_excel("openTECR recuration.ods", sheet_name="manually mapped table codes")
+
 # QC
 if True:
     assert sum(manual_table_codes.duplicated(["part", "page", "col l/r", "table from top"])) == 0, print(
@@ -246,7 +253,8 @@ export = new.loc[selector]
 
 ## export tables which need to have their comment extracted
 selector = []
-tables_with_comments = pandas.read_csv("openTECR recuration - table metadata.csv")
+#tables_with_comments = pandas.read_csv("openTECR recuration - table metadata.csv")
+tables_with_comments = pandas.read_excel("openTECR recuration.ods", sheet_name="table metadata")
 ## QC
 if True:
     assert sum(tables_with_comments.duplicated(["part","page","col l/r","table from top"]))==0, print(tables_with_comments[tables_with_comments.duplicated(["part","page","col l/r","table from top"])])
