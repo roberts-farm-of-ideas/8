@@ -96,12 +96,20 @@ if True:
 
     ## page numbers consistently continuous
     for which, g in df.groupby("part"):
+        MANUALLY_EXCLUDED_PARTS = [
+            #2,
+            #3,
+            #7
+        ]
+        if which in MANUALLY_EXCLUDED_PARTS:
+            continue
 
-        ## skip for now, while curation is in progress;
-        ## TODO: remove when curation finished
-        pass
-
-        #assert sorted(g["page"].unique()) == list(range(g["page"].min(), g["page"].max() + 1)), (which, print(g.to_string()))
+        print(f"----- This is about part {which} -----")
+        should_be = list(range(g["page"].min(), g["page"].max() + 1))
+        for page in should_be:
+            if page not in g["page"].unique():
+                print(f"Missing page: {page}")
+        #assert sorted(g["page"].unique()) == list(range(g["page"].min(), g["page"].max() + 1))
 
 ## extract added values
 # print(f"You will need to care for these {df.id.isna().sum()} recently added rows:")
@@ -204,6 +212,7 @@ MANUALLY_EXCLUDED = [
     "https://w3id.org/related-to/doi.org/10.5281/zenodo.3978439/files/TECRDB.csv#entry2339",
     "https://w3id.org/related-to/doi.org/10.5281/zenodo.3978439/files/TECRDB.csv#entry1916",
     "https://w3id.org/related-to/doi.org/10.5281/zenodo.3978439/files/TECRDB.csv#entry3026",
+    "https://w3id.org/related-to/doi.org/10.5281/zenodo.3978439/files/TECRDB.csv#entry4086",
 
 ]
 potential_errors = potential_errors[ ~potential_errors.id_y.isin(MANUALLY_EXCLUDED) ]
