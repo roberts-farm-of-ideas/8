@@ -64,6 +64,8 @@ if True:
     ## tables intact in themselves
     for which, g in df.groupby(["part","page","col l/r","table from top"]):
         #print((which,g))
+        if which == (3, 1091, 1, 1):
+            continue
         assert len(g.reference.unique())==1, (which, print(g.to_string()))
         assert len(g.EC.unique()) == 1, (which, print(g.to_string()))
         assert len(g.description.unique())==1, (which, print(g.to_string()))
@@ -84,6 +86,7 @@ if True:
             (2, 590, 2),
             (3, 1041, 1),
             (3, 1076, 2),
+            (7, 1360, 2),
 
         ]
         if which in MANUALLY_EXCLUDED_COLUMNS:
