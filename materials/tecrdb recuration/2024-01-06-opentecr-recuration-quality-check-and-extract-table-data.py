@@ -66,6 +66,7 @@ if True:
         #print((which,g))
         if which == (3, 1091, 1, 1):
             continue
+            
         assert len(g.reference.unique())==1, (which, print(g.to_string()))
         assert len(g.EC.unique()) == 1, (which, print(g.to_string()))
         assert len(g.description.unique())==1, (which, print(g.to_string()))
@@ -216,6 +217,7 @@ MANUALLY_EXCLUDED = [
     "https://w3id.org/related-to/doi.org/10.5281/zenodo.3978439/files/TECRDB.csv#entry1916",
     "https://w3id.org/related-to/doi.org/10.5281/zenodo.3978439/files/TECRDB.csv#entry3026",
     "https://w3id.org/related-to/doi.org/10.5281/zenodo.3978439/files/TECRDB.csv#entry4086",
+    "https://w3id.org/related-to/doi.org/10.5281/zenodo.3978439/files/TECRDB.csv#entry2848",
 
 ]
 potential_errors = potential_errors[ ~potential_errors.id_y.isin(MANUALLY_EXCLUDED) ]
