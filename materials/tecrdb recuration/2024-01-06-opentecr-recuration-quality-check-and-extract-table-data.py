@@ -88,6 +88,7 @@ if True:
             (3, 1041, 1),
             (3, 1076, 2),
             (7, 1360, 2),
+            (7, 1373, 1),
 
         ]
         if which in MANUALLY_EXCLUDED_COLUMNS:
