@@ -223,7 +223,9 @@ MANUALLY_EXCLUDED = [
     "https://w3id.org/related-to/doi.org/10.5281/zenodo.3978439/files/TECRDB.csv#entry772",
     "https://w3id.org/related-to/doi.org/10.5281/zenodo.3978439/files/TECRDB.csv#entry2851",
     "https://w3id.org/related-to/doi.org/10.5281/zenodo.3978439/files/TECRDB.csv#entry398",
-
+    "https://w3id.org/related-to/doi.org/10.5281/zenodo.3978439/files/TECRDB.csv#entry82",
+    "https://w3id.org/related-to/doi.org/10.5281/zenodo.3978439/files/TECRDB.csv#entry806",
+    "https://w3id.org/related-to/doi.org/10.5281/zenodo.3978439/files/TECRDB.csv#entry805",
 ]
 potential_errors = potential_errors[ ~potential_errors.id_y.isin(MANUALLY_EXCLUDED) ]
 if len(potential_errors) > 0:
