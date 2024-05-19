@@ -34,7 +34,11 @@ if True:
         "71TAN/JOH",
         "91HOR/UEH",
         "76SCH/KRI",
+        "99TEW/SCH"
     ]
+    ## shouldn't be necessary after introduction of duplicate_table column; so we use:
+    MANUALLY_EXCLUDED_DUPLICATES = []
+    ##
     test_df = test_df[~test_df.reference.isin(MANUALLY_EXCLUDED_DUPLICATES)]
     assert sum(test_df[((test_df["entry nr"]=="duplicate") | (test_df["entry nr"]=="error"))].id.isna())==0, ("Duplicate or error found for an empty-ID row", test_df[(((test_df["entry nr"]=="duplicate") | (test_df["entry nr"]=="error"))) & test_df.id.isna()])
 
@@ -64,8 +68,8 @@ if True:
     ## tables intact in themselves
     for which, g in df.groupby(["part","page","col l/r","table from top"]):
         #print((which,g))
-        if which == (3, 1091, 1, 1):
-            continue
+        #if which == (3, 1091, 1, 1):
+        #    continue
             
         assert len(g.reference.unique())==1, (which, print(g.to_string()))
         assert len(g.EC.unique()) == 1, (which, print(g.to_string()))
@@ -88,8 +92,15 @@ if True:
             (3, 1041, 1),
             (3, 1076, 2),
             (7, 1360, 2),
+            (7, 1369, 2),
             (7, 1373, 1),
-
+        ]
+        ## shouldn't be necessary after introduction of duplicate_table column; so we use:
+        MANUALLY_EXCLUDED_COLUMNS = []
+        ## because there is a peculiarity about tables not-existent-in-the-pdf, but found in randr, we have to use:
+        MANUALLY_EXCLUDED_COLUMNS = [
+            (6, 948, 2),
+            (6, 949, 1),
         ]
         if which in MANUALLY_EXCLUDED_COLUMNS:
             continue
@@ -144,7 +155,7 @@ SHOULD_BE_THE_SAME = [
     "ionic_strength",
     "p_h",
     "p_mg",
-    #"K_prime",
+    "K_prime",
 ]
 for s in SHOULD_BE_THE_SAME:
     entries_where_both_are_nans = leftjoined[ leftjoined[f"{s}_x"].isna() & leftjoined[f"{s}_y"].isna() ]
@@ -155,7 +166,8 @@ for s in SHOULD_BE_THE_SAME:
         assert (tmp[f"{s}_x"] == tmp[f"{s}_y"]).all(), (s, print(tmp[~(tmp[f"{s}_x"] == tmp[f"{s}_y"])][["id",f"{s}_x",f"{s}_y"]].to_string()))
 
 ## did someone add a new row without id, where they should have corrected a row with id?
-merged = pandas.merge(online, noor, on=[    "reference",
+merged = pandas.merge(online, noor, on=[
+    "reference",
     "temperature",
     "ionic_strength",
     "p_h",
@@ -226,6 +238,8 @@ MANUALLY_EXCLUDED = [
     "https://w3id.org/related-to/doi.org/10.5281/zenodo.3978439/files/TECRDB.csv#entry82",
     "https://w3id.org/related-to/doi.org/10.5281/zenodo.3978439/files/TECRDB.csv#entry806",
     "https://w3id.org/related-to/doi.org/10.5281/zenodo.3978439/files/TECRDB.csv#entry805",
+    "https://w3id.org/related-to/doi.org/10.5281/zenodo.3978439/files/TECRDB.csv#entry3654",
+    "https://w3id.org/related-to/doi.org/10.5281/zenodo.3978439/files/TECRDB.csv#entry2277",
 ]
 potential_errors = potential_errors[ ~potential_errors.id_y.isin(MANUALLY_EXCLUDED) ]
 if len(potential_errors) > 0:
